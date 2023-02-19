@@ -1,0 +1,11 @@
+{
+  "name": "marlowecheng_portfolio_230126-copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sass public/scss/main.scss:public/styles/main.min.css --watch --style=compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}
