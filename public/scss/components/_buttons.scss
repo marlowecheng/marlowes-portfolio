@@ -1,0 +1,23 @@
+@use "../utilities/variables" as vars;
+
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 1.5rem 0 1.5rem;
+    background: vars.$colour-1;
+    border: none;
+    font-family: vars.$font;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: vars.$colour-2;
+    border-radius: 1rem;
+    padding: .5rem 1.5rem;
+    max-height: 3.6rem;
+    max-width: fit-content;
+    transition: .25s ease-in-out;
+}
+
+.btn:hover {
+    background: vars.$colour-4;
+}

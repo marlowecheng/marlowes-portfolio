@@ -1,0 +1,30 @@
+@use "../utilities/variables" as vars;
+
+/* ------ Contact Section ------ */
+
+.contact {
+    text-align: center;
+
+    p {
+        margin-bottom: 3rem;
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            margin: 0 3rem;
+        }
+
+        span {
+            font-size: 2.5rem;
+            color: vars.$colour-1;
+            transition: .25s ease-in-out;
+        }
+
+        span:hover {
+            color: vars.$colour-4;
+        }
+    }
+}

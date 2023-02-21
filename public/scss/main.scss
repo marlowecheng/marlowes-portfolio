@@ -1,4 +1,20 @@
-@use "base/reset";
+@use "utilities/variables";
+
+// does not work for some reason
+// @use "base/reset";
+// @use "vendors/lightbox";
+
+@use "base/global";
 @use "base/typography";
 
+@use "components/buttons";
+
 @use "layout/grid";
+@use "layout/header";
+@use "layout/contact";
+@use "layout/footer";
+
+@use "pages/home";
+@use "pages/about";
+@use "pages/projects";
+@use "pages/indv-proj";

@@ -1,0 +1,52 @@
+@use "../utilities/variables" as vars;
+
+/* ------ Footer ------ */
+footer {
+    background: vars.$colour-3;
+    width: 100%;
+
+    .column {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: vars.$colour-1;
+        flex-direction: column;
+        
+        .footer-logo {
+            flex-basis: 33.333%;
+
+            img {
+                width: 2.5rem;
+            }
+        }
+        
+        p {
+            font-weight: 700;
+            font-size: .8rem;
+            text-align: center;
+            flex-basis: 33.333%;
+            // align-self: flex-end;
+        }
+        
+        // social icons
+        .socials {
+            flex-basis: 33.333%;
+            text-align: right;
+
+            span {
+                font-size: 2rem;
+                color: vars.$colour-1;
+                transition: .25s ease-in-out;
+            }
+
+            span:hover {
+                color: vars.$colour-2;
+            }
+
+            i {
+                margin: 1rem;
+            }
+        }   
+    }
+}
