@@ -7,7 +7,9 @@ Note for Future Marlowe to understand what is actually going on so they don't ha
 
 Check **init.php** to see if the project root is set for development or launch
 Uncomment/comment these based on the purpose
+
 Launch: `define('WWW_ROOT', 'https://marlowecheng.com')`
+
 Development: `define('WWW_ROOT', 'http://localhost');`
 
 
@@ -19,10 +21,15 @@ Development: `define('WWW_ROOT', 'http://localhost');`
 
 
 ## To-Do List
-
+.
 frogcoolcry.png
 
 ## Updates Log Probably
+
+### 23.02.21
+
+* Cried into hands for 2 hours
+* Partial'd the SCSS into partials
 
 ### 23.01.31
 
