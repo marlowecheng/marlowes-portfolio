@@ -1,4 +1,4 @@
-# Marlowe Cheng | Portfolio
+# Marlowe Cheng's Portfolio
 
 Note for Future Marlowe to understand what is actually going on so they don't have to spend days trying to decipher the spaghetti code written by Past Marlowe.
 
@@ -23,32 +23,3 @@ Development: `define('WWW_ROOT', 'http://localhost');`
 ## To-Do List
 
 ![frogcoolcry.png](https://i.imgur.com/POXY3BW.png)
-
-## Updates Log Probably
-
-### 23.02.21
-
-* Cried into hands for 2 hours
-* Partial'd the SCSS into partials
-
-### 23.01.31
-
-* Head partials has been returned
-* Manually added <head> has been removed
-* Added meta variables with information stored in each page
-```
-$meta_title = 'Marlowe Cheng | Page Name';
-$meta_desc = 'Description';
-```
-* Added meta variables to head.php
-```
-$meta_title = $meta_title ?? '';
-$meta_desc = $meta_desc ?? '';
-```
-* Threw in php blocks for meta tag's href to grab each variables from each page
-
-
-### 23.01.29
-
-* Temporarily removed the head partials
-* Manually added meta tags in the <head> for each page
