@@ -22,7 +22,9 @@ Development: `define('WWW_ROOT', 'http://localhost');`
 
 ## To-Do List
 
-![frogcoolcry.png](https://i.imgur.com/POXY3BW.png)
+<picture>
+  <img alt="frogcool.cry" src="https://i.imgur.com/POXY3BW.png">
+</picture>
 
 ## Updates Log Probably
 
