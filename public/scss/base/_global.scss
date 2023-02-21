@@ -1,0 +1,69 @@
+@use "../utilities/variables" as vars;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    font-size: 62.5%;
+    // padding: 0 10rem;
+    font-family: 'Rubik', sans-serif;
+    background: vars.$colour-2;
+}
+
+main {
+    font-size: 1.75rem;
+    // margin: 1.5rem 0;
+    // padding: 1.5rem 0;
+}
+
+/* ------ Utility Classes ------ */
+section {
+    margin: 2.5rem 0;
+
+    img {
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .bulleted {
+        li {
+            padding-left: 1rem;
+        }
+
+        li:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+
+        li::before {
+            content: '●';
+            color: vars.$colour-1;
+            display: inline-block;
+            width: 1rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.section-bg {
+    width: 100%;
+    background: vars.$colour-1;
+    color: vars.$colour-2;
+    padding: 1.5rem 0;
+}
+
+.container {
+    max-width: 30rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}

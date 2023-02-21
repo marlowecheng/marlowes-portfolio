@@ -1,0 +1,72 @@
+@use "../utilities/variables" as vars;
+
+/* ------ Grid ------ */
+.grid-col {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    margin: 0 1.5rem;
+
+    .column {
+        grid-column: 1 / span 4;
+    }
+}
+
+// @NOTE: I think this messes with some stuff with CSS ordering and priorities. Gets rendered even if something else changes it later on. Figure this out eventually lol.
+// .grid-col > *:not(:last-child) {
+//     margin-bottom: 1.5rem;
+// }
+
+// @NOTE: DELETE THIS
+/* ----- Grid Test ----- */
+.grid-col-test {
+    background: vars.$colour-1;
+    height: 5.5rem;
+    margin: 1.5rem 0;
+    border-radius: 1rem;
+}
+
+/* ----- Grid ----- */
+.column.span1 {
+    grid-column: auto / span 1;
+}
+
+.column.span2 {
+    grid-column: auto / span 2;
+}
+
+.column.span3 {
+    grid-column: auto / span 3;
+}
+
+.column.span4 {
+    grid-column: auto / span 4;
+}
+
+.column.span5 {
+    grid-column: auto / span 5;
+}
+
+.column.span6 {
+    grid-column: auto / span 6;
+}
+
+.column.span7 {
+    grid-column: auto / span 7;
+}
+
+.column.span8 {
+    grid-column: auto / span 8;
+}
+
+.column.span9 {
+    grid-column: auto / span 9;
+}
+
+.column.span10 {
+    grid-column: auto / span 10;
+}
+
+.column.span11 {
+    grid-column: auto / span 11;
+}

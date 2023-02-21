@@ -1,0 +1,52 @@
+@use "../utilities/variables" as vars;
+
+/* ------ Index ------ */
+.intro {
+    .img-container {
+        width: 100%;
+        height: 8rem;
+
+        // @NOTE: might not work if I do width %, might have to have an absolute number
+        img {
+        height: auto;
+        width: 85%;
+        align-self: center;
+        position: absolute;
+        border-radius: 0rem;
+        z-index: -5;
+        //border: vars.$colour-1 .5rem solid;
+        }
+    }
+}
+
+.showcase {
+    h2 {
+        color: vars.$colour-2;
+        text-align: center;
+    }
+
+    .card {
+        background: vars.$colour-2;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+
+        img {
+            height: 20rem;
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border-radius: 1rem;
+            transition: .25s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(103%);
+        }
+
+        p {
+            text-align: center;
+            color: vars.$colour-3;
+        }
+    } 
+}
