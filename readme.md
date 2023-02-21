@@ -22,7 +22,7 @@ Development: `define('WWW_ROOT', 'http://localhost');`
 
 ## To-Do List
 
-[](https://i.imgur.com/POXY3BW.png)
+![frogcoolcry.png](https://i.imgur.com/POXY3BW.png)
 
 ## Updates Log Probably
 
