@@ -1,5 +1,5 @@
 @use "../utilities/variables" as vars;
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 /* ------ TYPOGRAPHY ------ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,4 +57,24 @@ figcaption {
     font-weight: 200;
     text-align: center;
     padding: 1rem;
+}
+
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+}
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+/*------- DESKTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1201px) {
+    
 }

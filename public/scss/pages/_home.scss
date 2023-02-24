@@ -49,3 +49,42 @@
         }
     } 
 }
+
+/*----------------------
+    Responsiveness
+-----------------------*/
+
+/*------- TINY PHONES --------*/
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .intro {
+        .img-container {
+            height: 5rem;
+        }
+    }
+
+}
+
+/*------- TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .intro {
+        .img-container {
+            height: 20rem;
+        }
+    }
+
+}
+
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+/*------- DESKTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1201px) {
+    
+}
