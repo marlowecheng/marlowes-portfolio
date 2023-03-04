@@ -1,3 +1,7 @@
+
+depreciated-styles
+depreciated-styles/old-main.scss
+node_modules
 /public/depreciated-styles
 /public/styles/main.min.css
 /public/styles/main.min.css.map

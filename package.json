@@ -1,11 +1,22 @@
 {
   "name": "marlowecheng_portfolio_230126-copy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Note for Future Marlowe to understand what is actually going on so they don't have to spend days trying to decipher the spaghetti code written by Past Marlowe.",
   "main": "index.js",
   "scripts": {
-    "start": "npx sass public/scss/main.scss:public/styles/main.min.css --watch --style=compressed"
+    "sass:watch": "node_modules/.bin/sass public/scss/main.scss:public/css/main.min.css --watch --style=compressed"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlowecheng/portfolio-scss-rework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marlowecheng/portfolio-scss-rework/issues"
+  },
+  "homepage": "https://github.com/marlowecheng/portfolio-scss-rework#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
 }

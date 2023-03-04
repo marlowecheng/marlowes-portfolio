@@ -1,7 +1,5 @@
 @use "../utilities/variables" as vars;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -22,8 +20,6 @@ body {
 
 main {
     font-size: 1.75rem;
-    // margin: 1.5rem 0;
-    // padding: 1.5rem 0;
 }
 
 /* ------ Utility Classes ------ */
@@ -67,3 +63,28 @@ section {
     margin: 0 auto;
     padding: 1rem 0;
 }
+
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        max-width: 50rem;
+    }
+    
+}
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+/*------- DESKTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1201px) {
+    
+}
+
+

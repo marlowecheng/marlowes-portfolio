@@ -7,6 +7,10 @@
     grid-column-gap: 2rem;
     margin: 0 1.5rem;
 
+    @media screen and (min-width: 481px) {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
     .column {
         grid-column: 1 / span 4;
     }
@@ -16,15 +20,6 @@
 // .grid-col > *:not(:last-child) {
 //     margin-bottom: 1.5rem;
 // }
-
-// @NOTE: DELETE THIS
-/* ----- Grid Test ----- */
-.grid-col-test {
-    background: vars.$colour-1;
-    height: 5.5rem;
-    margin: 1.5rem 0;
-    border-radius: 1rem;
-}
 
 /* ----- Grid ----- */
 .column.span1 {
@@ -69,4 +64,30 @@
 
 .column.span11 {
     grid-column: auto / span 11;
+}
+
+// <div class="column span4 span8-md"></div>
+
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .column.span8-md {
+        grid-column: auto / span 8;
+    }
+
+}
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+/*------- DESKTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1201px) {
+    
 }
