@@ -557,8 +557,12 @@ footer .column .socials i {
 .about-me img {
   width: 100%;
   border-radius: 1rem;
+  margin-top: 1.5rem;
 }
 
+.skills .skill-card {
+  margin-bottom: 2.5rem;
+}
 .skills .smol-txt {
   font-size: 1rem;
 }
@@ -586,14 +590,18 @@ footer .column .socials i {
 }
 .mission p {
   color: #FFFAEB;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
-.goals .column.span10:first-of-type {
+.goals h2 {
+  margin-bottom: 3rem;
+}
+.goals .goal-cards:first-of-type {
   margin-bottom: 2rem;
 }
 .goals img {
-  height: 5rem;
+  height: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*----------------------

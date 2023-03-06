@@ -21,7 +21,7 @@
         <section class="skills">
             <div class="container">
                 <div class="grid-col">
-                    <div class="skill-card column span4 span8-md span12-lg span8-md span12-lg">
+                    <div class="skill-card column span4 span8-md span12-lg">
                         <h3>Languages</h3>
                         <ul class="bulleted">
                             <li>HTML</li>
@@ -30,7 +30,7 @@
                             <li>PHP</li>
                         </ul>
                     </div>
-                    <div class="skill-card column span4 span8-md span12-lg span8-md span12-lg">
+                    <div class="skill-card column span4 span8-md span12-lg">
                         <h3>Software</h3>
                         <ul class="bulleted">
                             <li>Adobe Creative Suite</li>
@@ -38,7 +38,7 @@
                             <li>Microsoft Office</li>
                         </ul>
                     </div>
-                    <div class="skill-card column span4 span8-md span12-lg span8-md span12-lg">
+                    <div class="skill-card column span4 span8-md span12-lg">
                         <h3>Education</h3>
                         <ul class="bulleted">
                             <li>BCIT &mdash; 2022-present
@@ -100,7 +100,7 @@
                 <div class="grid-col">
                     <h2 class="column">Goals</h2>
                     <img src="<?php echo get_public_url('images/about/short.svg'); ?>" alt="frog horizontally condensed" class="column span1">
-                    <div class="column span4 span8-md span12-lg">
+                    <div class="goal-cards column span4 span8-md span12-lg">
                         <h3>Short Term</h3>
                         <ul class="bulleted">
                             <li>Work as a junior developer at a company with a mentorship program</li>
@@ -108,7 +108,7 @@
                         </ul>
                     </div>
                     <img src="<?php echo get_public_url('images/about/long.svg'); ?>" alt="frog horizontally expanded" class="column span1">
-                    <div class="column span4 span8-md span12-lg">
+                    <div class="goal-cards column span4 span8-md span12-lg">
                         <h3>Long Term</h3>
                         <ul class="bulleted">
                             <li>Work on a web development team that shares my values and intersections</li>
