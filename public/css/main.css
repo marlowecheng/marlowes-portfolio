@@ -107,19 +107,19 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 h4 {
-  font-size: 1rem;
-}
-
-h5 {
   font-size: 0.6rem;
 }
 
+h5 {
+  font-size: 0.4rem;
+}
+
 h6 {
-  font-size: 0.3rem;
+  font-size: 0.2rem;
 }
 
 p, li {
@@ -566,8 +566,16 @@ footer .column .socials i {
 .values h2 {
   margin-bottom: 3rem;
 }
+.values .grid-col > .grid-col {
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
 .values .card {
   margin-bottom: 3rem;
+}
+.values .card > img {
+  border-radius: 0;
+  margin-bottom: 1.5rem;
 }
 .values .card h3 {
   margin-bottom: 1.5rem;
