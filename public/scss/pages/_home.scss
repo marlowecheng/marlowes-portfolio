@@ -8,12 +8,12 @@
 
         // @NOTE: might not work if I do width %, might have to have an absolute number
         img {
-        height: auto;
-        width: 85%;
-        align-self: center;
-        position: absolute;
-        border-radius: 0rem;
-        z-index: -5;
+            height: auto;
+            width: 100%;
+            align-self: center;
+            position: relative;
+            border-radius: 0rem;
+            z-index: -5;
         }
     }
 }
@@ -53,38 +53,55 @@
 /*----------------------
     Responsiveness
 -----------------------*/
+/*------- SMALL TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
 
-/*------- TINY PHONES --------*/
-@media screen and (min-width: 320px) and (max-width: 374px) {
     .intro {
         .img-container {
-            height: 5rem;
+            height: 8.15rem;
+            width: 100%;
         }
+
+        .img-container.column.span8-md {
+            grid-column: 2 / span 6;
+        }
+
     }
 
 }
-
-/*------- TABLET --------*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro {
         .img-container {
-            height: 20rem;
+            height: 14rem;
+            width: 100%;
         }
+
+        .img-container.column.span8-md {
+            grid-column: 2 / span 6;
+        }
+
     }
-
 }
-
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .intro {
+        .img-container {
+            height: 14rem;
+            width: 100%;
+        }
+
+        .img-container.column.span12-lg {
+            grid-column: 3 / span 7;
+        }
+    }
+}
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
     
 }
-
-/*------- DESKTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    
-}
-
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1441px) {
     
 }
+

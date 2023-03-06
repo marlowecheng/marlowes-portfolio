@@ -38,19 +38,30 @@ header .column {
 /*----------------------
     Responsiveness
 -----------------------*/
-/*------- TABLET --------*/
+/*------- SMALL TABLET --------*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    
+
+}
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
 }
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    header .column {
+        flex-direction: row;
+    }
     
 }
-/*------- DESKTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    header .column {
+        flex-direction: row;
+    }
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1201px) {
-    
+@media screen and (min-width: 1921px) {
+    header .column {
+        flex-direction: row;
+    }
 }

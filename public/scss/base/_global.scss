@@ -67,24 +67,36 @@ section {
 /*----------------------
     Responsiveness
 -----------------------*/
-/*------- TABLET --------*/
+/*------- SMALL TABLET --------*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        max-width: 45rem;
+    }
+}
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
         max-width: 50rem;
     }
-    
 }
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        max-width: 75rem;
+    }
     
 }
-/*------- DESKTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .container {
+        max-width: 80rem;
+    }
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1201px) {
-    
+@media screen and (min-width: 1921px) {
+    .container {
+        max-width: 110rem;
+    }
 }
 
 
