@@ -534,7 +534,25 @@ footer .column .socials i {
   }
 }
 /*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .intro .img-container {
+    height: 18rem;
+    width: 100%;
+  }
+  .intro .img-container.column.span12-lg {
+    grid-column: 3/span 7;
+  }
+}
 /*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1921px) {
+  .intro .img-container {
+    height: 16rem;
+    width: 100%;
+  }
+  .intro .img-container.column.span12-lg {
+    grid-column: 4/span 6;
+  }
+}
 /* ------ About ------ */
 .about-me img {
   width: 100%;
@@ -573,9 +591,10 @@ footer .column .socials i {
 /*----------------------
     Responsiveness
 -----------------------*/
-/*------- TABLET --------*/
+/*------- SMALL TABLET --------*/
+/*------- BIG TABLET --------*/
 /*------- LAPTOPS --------*/
-/*------- DESKTOPS --------*/
+/*------- DESKTOPS--------*/
 /*------- LARGE SCREENS --------*/
 /* ------ Projects Page ------ */
 .projects .proj-card {

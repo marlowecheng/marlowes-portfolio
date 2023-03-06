@@ -14,7 +14,7 @@
                         <p>I am a New Media Design and Web Development student at BCIT. I am an aspiring front-end web developer and graphic designer, currently trying to learn React.js and Tailwind.css. I love working with CSS, SCSS, HTML, and jQuery. I also enjoy working with Adobe Illustrator, Photoshop, and After Effects.</p>
                         <a href="<?php echo get_public_url('about.php'); ?>" class="btn">more marlowe fun facts</a>
                     </div>
-                    <div class="img-container column span4 span8-md span12-lg"><img src="images/marlowe/marlowe-sqoosh.png" alt="" class=""></div>
+                    <div class="img-container column span4 span8-md span12-lg"><img src="images/marlowe/marlowe-sqoosh.png" alt="Marlowe's head squished between the fingers of a hand-shaped chair" class=""></div>
                 </div>
             </div>
         </section>
