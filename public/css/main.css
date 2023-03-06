@@ -58,6 +58,39 @@ section .bulleted li::before {
   padding: 1rem 0;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- SMALL TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-width: 45rem;
+  }
+}
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 50rem;
+  }
+}
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .container {
+    max-width: 75rem;
+  }
+}
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .container {
+    max-width: 80rem;
+  }
+}
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1921px) {
+  .container {
+    max-width: 110rem;
+  }
+}
 /* ------ TYPOGRAPHY ------ */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Rubik Mono One", sans-serif;
@@ -74,19 +107,19 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 h4 {
-  font-size: 1rem;
-}
-
-h5 {
   font-size: 0.6rem;
 }
 
+h5 {
+  font-size: 0.4rem;
+}
+
 h6 {
-  font-size: 0.3rem;
+  font-size: 0.2rem;
 }
 
 p, li {
@@ -116,6 +149,13 @@ figcaption {
   padding: 1rem;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+/*------- LAPTOPS --------*/
+/*------- DESKTOPS --------*/
+/*------- LARGE SCREENS --------*/
 .btn {
   display: block;
   text-align: center;
@@ -138,6 +178,13 @@ figcaption {
   background: #193e2d;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+/*------- LAPTOPS --------*/
+/*------- DESKTOPS --------*/
+/*------- LARGE SCREENS --------*/
 /* ------ Grid ------ */
 .grid-col {
   display: grid;
@@ -148,13 +195,55 @@ figcaption {
 .grid-col .column {
   grid-column: 1/span 4;
 }
-
-/* ----- Grid Test ----- */
-.grid-col-test {
-  background: #427A61;
-  height: 5.5rem;
-  margin: 1.5rem 0;
-  border-radius: 1rem;
+@media screen and (min-width: 481px) {
+  .grid-col {
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 2rem;
+    margin: 0 2rem;
+  }
+  .grid-col .column {
+    grid-column: 1/span 8;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .grid-col {
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 2rem;
+    margin: 0 2rem;
+  }
+  .grid-col .column {
+    grid-column: 1/span 8;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .grid-col {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2.5rem;
+    margin: 0 6rem;
+  }
+  .grid-col .column {
+    grid-column: 1/span 12;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .grid-col {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2.5rem;
+    margin: 0 6rem;
+  }
+  .grid-col .column {
+    grid-column: 1/span 12;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .grid-col {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2.5rem;
+    margin: 0 8rem;
+  }
+  .grid-col .column {
+    grid-column: 1/span 12;
+  }
 }
 
 /* ----- Grid ----- */
@@ -202,6 +291,43 @@ figcaption {
   grid-column: auto/span 11;
 }
 
+.column.span12 {
+  grid-column: auto/span 12;
+}
+
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- SMALL TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .column.span8-md {
+    grid-column: auto/span 8;
+  }
+}
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .column.span8-md {
+    grid-column: auto/span 8;
+  }
+}
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .column.span12-lg {
+    grid-column: auto/span 12;
+  }
+}
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .column.span12-lg {
+    grid-column: auto/span 12;
+  }
+}
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1921px) {
+  .column.span12-lg {
+    grid-column: auto/span 12;
+  }
+}
 /* ------ Header Nav ------ */
 header .column {
   display: flex;
@@ -232,6 +358,29 @@ header .column .global-nav a:hover {
   border-bottom: #427A61 solid 0.15rem;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- SMALL TABLET --------*/
+/*------- BIG TABLET --------*/
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  header .column {
+    flex-direction: row;
+  }
+}
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  header .column {
+    flex-direction: row;
+  }
+}
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1921px) {
+  header .column {
+    flex-direction: row;
+  }
+}
 /* ------ Contact Section ------ */
 .contact {
   text-align: center;
@@ -256,6 +405,13 @@ header .column .global-nav a:hover {
   color: #193e2d;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+/*------- LAPTOPS --------*/
+/*------- DESKTOPS --------*/
+/*------- LARGE SCREENS --------*/
 /* ------ Footer ------ */
 footer {
   background: #131313;
@@ -297,6 +453,13 @@ footer .column .socials i {
   margin: 1rem;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+/*------- LAPTOPS --------*/
+/*------- DESKTOPS --------*/
+/*------- LARGE SCREENS --------*/
 /* ------ Index ------ */
 .intro .img-container {
   width: 100%;
@@ -304,9 +467,9 @@ footer .column .socials i {
 }
 .intro .img-container img {
   height: auto;
-  width: 85%;
+  width: 100%;
   align-self: center;
-  position: absolute;
+  position: relative;
   border-radius: 0rem;
   z-index: -5;
 }
@@ -337,12 +500,69 @@ footer .column .socials i {
   color: #131313;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- SMALL TABLET --------*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .intro .img-container {
+    height: 8.15rem;
+    width: 100%;
+  }
+  .intro .img-container.column.span8-md {
+    grid-column: 2/span 6;
+  }
+}
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro .img-container {
+    height: 14rem;
+    width: 100%;
+  }
+  .intro .img-container.column.span8-md {
+    grid-column: 2/span 6;
+  }
+}
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .intro .img-container {
+    height: 14rem;
+    width: 100%;
+  }
+  .intro .img-container.column.span12-lg {
+    grid-column: 3/span 7;
+  }
+}
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .intro .img-container {
+    height: 18rem;
+    width: 100%;
+  }
+  .intro .img-container.column.span12-lg {
+    grid-column: 3/span 7;
+  }
+}
+/*------- LARGE SCREENS --------*/
+@media screen and (min-width: 1921px) {
+  .intro .img-container {
+    height: 16rem;
+    width: 100%;
+  }
+  .intro .img-container.column.span12-lg {
+    grid-column: 4/span 6;
+  }
+}
 /* ------ About ------ */
 .about-me img {
   width: 100%;
   border-radius: 1rem;
+  margin-top: 1.5rem;
 }
 
+.skills .skill-card {
+  margin-bottom: 2.5rem;
+}
 .skills .smol-txt {
   font-size: 1rem;
 }
@@ -350,8 +570,16 @@ footer .column .socials i {
 .values h2 {
   margin-bottom: 3rem;
 }
+.values .grid-col > .grid-col {
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
 .values .card {
   margin-bottom: 3rem;
+}
+.values .card > img {
+  border-radius: 0;
+  margin-bottom: 1.5rem;
 }
 .values .card h3 {
   margin-bottom: 1.5rem;
@@ -362,16 +590,28 @@ footer .column .socials i {
 }
 .mission p {
   color: #FFFAEB;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
-.goals .column.span10:first-of-type {
+.goals h2 {
+  margin-bottom: 3rem;
+}
+.goals .goal-cards:first-of-type {
   margin-bottom: 2rem;
 }
 .goals img {
-  height: 5rem;
+  height: 2rem;
+  margin-bottom: 1rem;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- SMALL TABLET --------*/
+/*------- BIG TABLET --------*/
+/*------- LAPTOPS --------*/
+/*------- DESKTOPS--------*/
+/*------- LARGE SCREENS --------*/
 /* ------ Projects Page ------ */
 .projects .proj-card {
   display: flex;
@@ -420,6 +660,13 @@ footer .column .socials i {
   border-radius: 1rem;
 }
 
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+/*------- LAPTOPS --------*/
+/*------- DESKTOPS --------*/
+/*------- LARGE SCREENS --------*/
 /* ------ Indv. Project Page ------ */
 .proj-intro .proj-header {
   margin-bottom: 5rem;
@@ -484,4 +731,12 @@ footer .column .socials i {
 }
 .proj-closing .grid-col a {
   margin: 0 auto;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*----------------------
+    Responsiveness
+-----------------------*/
+/*------- TABLET --------*/
+/*------- LAPTOPS --------*/
+/*------- DESKTOPS --------*/
+/*------- LARGE SCREENS --------*//*# sourceMappingURL=main.css.map */

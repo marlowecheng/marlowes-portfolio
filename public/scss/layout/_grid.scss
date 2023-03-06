@@ -7,12 +7,60 @@
     grid-column-gap: 2rem;
     margin: 0 1.5rem;
 
-    @media screen and (min-width: 481px) {
-        grid-template-columns: repeat(8, 1fr);
-    }
-
     .column {
         grid-column: 1 / span 4;
+    }
+
+    // smaller tablets
+    @media screen and (min-width: 481px) {
+        grid-template-columns: repeat(8, 1fr);
+        grid-column-gap: 2rem;
+        margin: 0 2rem;
+
+        .column {
+            grid-column: 1 / span 8;
+        }
+    }
+    // bigger tablets
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        grid-template-columns: repeat(8, 1fr);
+        grid-column-gap: 2rem;
+        margin: 0 2rem;
+
+        .column {
+            grid-column: 1 / span 8;
+        }
+    }
+    // laptops
+    @media screen and (min-width: 1025px) and (max-width: 1440px) {
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 2.5rem;
+        margin: 0 6rem;
+
+        .column {
+            grid-column: 1 / span 12;
+        }
+    }
+    // desktops
+    @media screen and (min-width: 1441px) and (max-width: 1920px) {
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 2.5rem;
+        margin: 0 6rem;
+
+        .column {
+            grid-column: 1 / span 12;
+        }
+    }
+
+    // large screens
+    @media screen and (min-width: 1921px) {
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 2.5rem;
+        margin: 0 8rem;
+
+        .column {
+            grid-column: 1 / span 12;
+        }
     }
 }
 
@@ -66,28 +114,42 @@
     grid-column: auto / span 11;
 }
 
+.column.span12 {
+    grid-column: auto / span 12;
+}
+
 // <div class="column span4 span8-md"></div>
 
 /*----------------------
     Responsiveness
 -----------------------*/
-/*------- TABLET --------*/
+/*------- SMALL TABLET --------*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    
     .column.span8-md {
         grid-column: auto / span 8;
     }
-
+}
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .column.span8-md {
+        grid-column: auto / span 8;
+    }
 }
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .column.span12-lg {
+        grid-column: auto / span 12;
+    }
 }
-/*------- DESKTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .column.span12-lg {
+        grid-column: auto / span 12;
+    }
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1201px) {
-    
+@media screen and (min-width: 1921px) {
+    .column.span12-lg {
+        grid-column: auto / span 12;
+    }
 }

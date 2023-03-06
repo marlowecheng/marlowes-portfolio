@@ -8,3 +8,6 @@ node_modules
 /public/styles
 /public/css/main.min.css
 /public/css/main.min.css.map
+*.map
+public/css/main.min.css
+public/css/main.min.css.map
