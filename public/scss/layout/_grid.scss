@@ -35,7 +35,7 @@
     @media screen and (min-width: 1025px) and (max-width: 1440px) {
         grid-template-columns: repeat(12, 1fr);
         grid-column-gap: 2.5rem;
-        margin: 0 6rem;
+        margin: 0 4rem;
 
         .column {
             grid-column: 1 / span 12;
@@ -124,32 +124,26 @@
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) {
     .column.span8-md {
         grid-column: auto / span 8;
     }
 }
 /*------- BIG TABLET --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .column.span8-md {
-        grid-column: auto / span 8;
-    }
+@media screen and (min-width: 769px) {
+
 }
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) {
     .column.span12-lg {
         grid-column: auto / span 12;
     }
 }
 /*------- DESKTOPS--------*/
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
-    .column.span12-lg {
-        grid-column: auto / span 12;
-    }
+@media screen and (min-width: 1441px) {
+
 }
 /*------- LARGE SCREENS --------*/
 @media screen and (min-width: 1921px) {
-    .column.span12-lg {
-        grid-column: auto / span 12;
-    }
+
 }
