@@ -99,21 +99,25 @@
             <div class="container">
                 <div class="grid-col">
                     <h2 class="column">Goals</h2>
-                    <img src="<?php echo get_public_url('images/about/short.svg'); ?>" alt="frog horizontally condensed" class="column span1">
-                    <div class="goal-cards column span4 span8-md span12-lg">
-                        <h3>Short Term</h3>
-                        <ul class="bulleted">
-                            <li>Work as a junior developer at a company with a mentorship program</li>
-                            <li>Work in-person within Vancouver</li>
-                        </ul>
+                    <div class="grid-col card column span4 span8-md span12-lg">
+                        <img src="<?php echo get_public_url('images/about/short.svg'); ?>" alt="frog horizontally condensed" class="column span4 span8-md span12-lg">
+                        <div class="column span4 span8-md span12-lg">
+                            <h3>Short Term</h3>
+                            <ul class="bulleted">
+                                <li>Work as a junior developer at a company with a mentorship program</li>
+                                <li>Work in-person within Vancouver</li>
+                            </ul>
+                        </div>
                     </div>
-                    <img src="<?php echo get_public_url('images/about/long.svg'); ?>" alt="frog horizontally expanded" class="column span1">
-                    <div class="goal-cards column span4 span8-md span12-lg">
-                        <h3>Long Term</h3>
-                        <ul class="bulleted">
-                            <li>Work on a web development team that shares my values and intersections</li>
-                            <li>Freelancing part-time as an income supplement</li>
-                        </ul>
+                    <div class="grid-col card column span4 span8-md span12-lg">
+                        <img src="<?php echo get_public_url('images/about/long.svg'); ?>" alt="frog horizontally expanded" class="column span4 span8-md span12-lg">
+                        <div class="column span4 span8-md span12-lg">
+                            <h3>Long Term</h3>
+                            <ul class="bulleted">
+                                <li>Work on a web development team that shares my values and intersections</li>
+                                <li>Freelancing part-time as an income supplement</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
