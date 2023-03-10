@@ -57,28 +57,28 @@
                 <div class="grid-col">
                     <h2 class="column">Values</h2>
                     <div class="card column grid-col">
-                        <img src="<?php echo get_public_url('images/about/community.svg'); ?>" alt="4 frogs together" class="column span1">
+                        <img src="<?php echo get_public_url('images/about/community.svg'); ?>" alt="4 frogs together" class="column span4 span8-md span12-lg">
                         <div class="column span4 span8-md span12-lg">
                             <h3>Community</h3>
                             <p>Community incredibly important to me as a person with multiple intersections. Being in community brings solidarity, safety, and comfort. Creating these kinds of safe spaces is a passion of mine.</p>
                         </div>
                     </div>
                     <div class="card column grid-col">
-                        <img src="<?php echo get_public_url('images/about/curiosity.svg'); ?>" alt="a frog with a question mark on top of its head" class="column span1">
+                        <img src="<?php echo get_public_url('images/about/curiosity.svg'); ?>" alt="a frog with a question mark on top of its head" class="column span4 span8-md span12-lg">
                         <div class="column span4 span8-md span12-lg">
                             <h3>Curiosity</h3>
                             <p>A drive to continuously learn, try new things, explore new ideas, and consider other possibilities. I love to learn new things, and picking up many new skills to put into my metaphorical backpack of knowledge.</p>
                         </div>
                     </div>
                     <div class="card column grid-col">
-                        <img src="<?php echo get_public_url('images/about/humor.svg'); ?>" alt="a frog with a happy face" class="column span1">
+                        <img src="<?php echo get_public_url('images/about/humor.svg'); ?>" alt="a frog with a happy face" class="column span4 span8-md span12-lg">
                         <div class="column span4 span8-md span12-lg">
                             <h3>Humor</h3>
                             <p>Lightheartedness and fun goes a long way when building relationships and even tackling challenges. It’s great in appropriate situations and requires a sensible balance between seriousness and humour.</p>
                         </div>
                     </div>
                     <div class="card column grid-col">
-                        <img src="<?php echo get_public_url('images/about/accountability.svg'); ?>" alt="a frog with an exclamation mark above its head" class="column span1">
+                        <img src="<?php echo get_public_url('images/about/accountability.svg'); ?>" alt="a frog with an exclamation mark above its head" class="column span4 span8-md span12-lg">
                         <div class="column span4 span8-md span12-lg">
                             <h3>Accountability</h3>
                             <p>Personal accountability means setting myself up for success, and taking responsibility for my own mistakes and oversights. This also means being open to critiques and feedback without defensiveness and deflection.</p>
@@ -99,21 +99,25 @@
             <div class="container">
                 <div class="grid-col">
                     <h2 class="column">Goals</h2>
-                    <img src="<?php echo get_public_url('images/about/short.svg'); ?>" alt="frog horizontally condensed" class="column span1">
-                    <div class="goal-cards column span4 span8-md span12-lg">
-                        <h3>Short Term</h3>
-                        <ul class="bulleted">
-                            <li>Work as a junior developer at a company with a mentorship program</li>
-                            <li>Work in-person within Vancouver</li>
-                        </ul>
+                    <div class="grid-col card column">
+                        <img src="<?php echo get_public_url('images/about/short.svg'); ?>" alt="frog horizontally condensed" class="column span4 span8-md span12-lg">
+                        <div class="column span4 span8-md span12-lg">
+                            <h3>Short Term</h3>
+                            <ul class="bulleted">
+                                <li>Work as a junior developer at a company with a mentorship program</li>
+                                <li>Work in-person within Vancouver</li>
+                            </ul>
+                        </div>
                     </div>
-                    <img src="<?php echo get_public_url('images/about/long.svg'); ?>" alt="frog horizontally expanded" class="column span1">
-                    <div class="goal-cards column span4 span8-md span12-lg">
-                        <h3>Long Term</h3>
-                        <ul class="bulleted">
-                            <li>Work on a web development team that shares my values and intersections</li>
-                            <li>Freelancing part-time as an income supplement</li>
-                        </ul>
+                    <div class="grid-col card column">
+                        <img src="<?php echo get_public_url('images/about/long.svg'); ?>" alt="frog horizontally expanded" class="column span4 span8-md span12-lg">
+                        <div class="column span4 span8-md span12-lg">
+                            <h3>Long Term</h3>
+                            <ul class="bulleted">
+                                <li>Work on a web development team that shares my values and intersections</li>
+                                <li>Freelancing part-time as an income supplement</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

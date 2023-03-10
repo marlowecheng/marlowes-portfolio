@@ -15,11 +15,12 @@
     }
 
     .smol-txt {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
-.values {
+.values,
+.goals {
     h2 {
         margin-bottom: 3rem;
     }
@@ -35,6 +36,8 @@
         > img {
             border-radius: 0;
             margin-bottom: 1.5rem;
+            grid-column: 1 / span 1;
+            height: 4rem;
         }
 
         h3 {
@@ -50,43 +53,77 @@
 
     p {
         color: vars.$colour-2;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
-
-.goals {
-    h2 {
-        margin-bottom: 3rem;
-    }
-
-    .goal-cards:first-of-type {
-        margin-bottom: 2rem;
-    }
-
-    img {
-        height: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
 /*----------------------
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) {
+    .about-me {
+        img.column.span8-md {
+            grid-column: 2 / span 6;
+        }
+    }
 
+    .values,
+    .goals {
+        .card {
+            grid-column: auto / span 4; 
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 4rem 1fr;
+
+            > .column {
+                grid-column: 1 / span 4;
+            }
+
+            > img.span8-md {
+                grid-column: 1 / span 1;
+            }
+        }
+    }
 }
 /*------- BIG TABLET --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
+    .about-me {
+        img.column.span8-md {
+            grid-column: 3 / span 4;
+        }
+    }
 
-}
+    .skills 
+        .skill-card {
+            grid-column: auto / span 4;
+        }
+
+        .skill-card:last-child {
+            grid-column: auto / span 8;
+        }
+    }
+
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) {
+    .values,
+    .goals {
+        .card {
+            grid-column: auto / span 6; 
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: 8rem 1fr;
 
+            > .column {
+                grid-column: 1 / span 6;
+            }
+
+            > img.span12-md {
+                grid-column: 1 / span 6;
+            }
+        }
+    }
     
 }
 /*------- DESKTOPS--------*/
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+@media screen and (min-width: 1440px) {
     
 }
 /*------- LARGE SCREENS --------*/
