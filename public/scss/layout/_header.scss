@@ -39,29 +39,24 @@ header .column {
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) {
 
 }
 /*------- BIG TABLET --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
 
 }
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) {
     header .column {
         flex-direction: row;
     }
-    
 }
 /*------- DESKTOPS--------*/
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
-    header .column {
-        flex-direction: row;
-    }
+@media screen and (min-width: 1440px) {
+
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1921px) {
-    header .column {
-        flex-direction: row;
-    }
+@media screen and (min-width: 1920px) {
+
 }

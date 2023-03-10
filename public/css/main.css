@@ -62,13 +62,13 @@ section .bulleted li::before {
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
   .container {
     max-width: 45rem;
   }
 }
 /*------- BIG TABLET --------*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 55rem;
   }
@@ -80,13 +80,13 @@ section .bulleted li::before {
   }
 }
 /*------- DESKTOPS--------*/
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
   .container {
     max-width: 80rem;
   }
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1920px) {
   .container {
     max-width: 100rem;
   }
@@ -196,7 +196,7 @@ figcaption {
 .grid-col .column {
   grid-column: 1/span 4;
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
   .grid-col {
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 2rem;
@@ -206,7 +206,7 @@ figcaption {
     grid-column: 1/span 8;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .grid-col {
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 2rem;
@@ -216,7 +216,7 @@ figcaption {
     grid-column: 1/span 8;
   }
 }
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .grid-col {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2.5rem;
@@ -226,7 +226,7 @@ figcaption {
     grid-column: 1/span 12;
   }
 }
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+@media screen and (min-width: 1440px) {
   .grid-col {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2.5rem;
@@ -236,7 +236,7 @@ figcaption {
     grid-column: 1/span 12;
   }
 }
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1920px) {
   .grid-col {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2.5rem;
@@ -300,7 +300,7 @@ figcaption {
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
   .column.span8-md {
     grid-column: auto/span 8;
   }
@@ -350,23 +350,13 @@ header .column .global-nav a:hover {
 /*------- SMALL TABLET --------*/
 /*------- BIG TABLET --------*/
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) {
   header .column {
     flex-direction: row;
   }
 }
 /*------- DESKTOPS--------*/
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
-  header .column {
-    flex-direction: row;
-  }
-}
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1921px) {
-  header .column {
-    flex-direction: row;
-  }
-}
 /* ------ Contact Section ------ */
 .contact {
   text-align: center;
@@ -492,19 +482,20 @@ footer .column .socials i {
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
   .intro .img-container {
     height: 8.15rem;
     width: 100%;
   }
   .intro .img-container.column.span8-md {
-    grid-column: 2/span 6;
+    grid-column: 1/span 8;
   }
 }
 /*------- BIG TABLET --------*/
 @media screen and (min-width: 768px) {
-  .intro .img-container {
-    height: 12rem;
+  .intro .img-container.column.span8-md {
+    height: 15rem;
+    grid-column: 2/span 6;
   }
 }
 /*------- LAPTOPS --------*/
@@ -521,15 +512,21 @@ footer .column .socials i {
   .intro .intro-content {
     grid-area: 2/1/3/span 7;
   }
+  .intro .img-container {
+    height: 18rem;
+  }
+  .intro .img-container img {
+    margin-top: 1rem;
+  }
   .intro .img-container.column.span12-lg {
-    grid-area: 2/7/3/span 7;
+    grid-area: 2/6/3/span 8;
   }
   .card.column.span8-md {
     grid-column: auto/span 6;
   }
 }
 /*------- DESKTOPS--------*/
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
   .intro .intro-title {
     grid-area: 1/1/2/span 12;
   }
@@ -544,7 +541,7 @@ footer .column .socials i {
   }
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1920px) {
   .intro .img-container {
     height: 15rem;
   }
@@ -584,6 +581,7 @@ footer .column .socials i {
   border-radius: 0;
   margin-bottom: 1.5rem;
   grid-column: 1/span 1;
+  height: 2.5rem;
 }
 .values .card h3,
 .goals .card h3 {
@@ -598,10 +596,6 @@ footer .column .socials i {
   font-size: 1.5rem;
 }
 
-.goals img {
-  height: 2.5rem;
-}
-
 /*----------------------
     Responsiveness
 -----------------------*/
@@ -610,30 +604,50 @@ footer .column .socials i {
   .about-me img.column.span8-md {
     grid-column: 2/span 6;
   }
-  .values .card > img,
-  .goals .card > img {
-    grid-column: 1/span 2;
+  .values .card,
+  .goals .card {
+    grid-column: auto/span 4;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4rem 1fr;
   }
-  .goals img {
-    height: 3rem;
+  .values .card > .column,
+  .goals .card > .column {
+    grid-column: 1/span 4;
+  }
+  .values .card > img.span8-md,
+  .goals .card > img.span8-md {
+    grid-column: 1/span 1;
   }
 }
 /*------- BIG TABLET --------*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .about-me img.column.span8-md {
     grid-column: 3/span 4;
   }
   .skills .skill-card {
-    grid-column: auto/span 2;
-  }
-  .skills .skill-card:last-child {
     grid-column: auto/span 4;
   }
-  .goals img {
-    height: 5rem;
+  .skill-card:last-child {
+    grid-column: auto/span 8;
   }
 }
 /*------- LAPTOPS --------*/
+@media screen and (min-width: 1024px) {
+  .values .card,
+  .goals .card {
+    grid-column: auto/span 6;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 8rem 1fr;
+  }
+  .values .card > .column,
+  .goals .card > .column {
+    grid-column: 1/span 6;
+  }
+  .values .card > img.span12-md,
+  .goals .card > img.span12-md {
+    grid-column: 1/span 6;
+  }
+}
 /*------- DESKTOPS--------*/
 /*------- LARGE SCREENS --------*/
 /* ------ Projects Page ------ */

@@ -68,13 +68,13 @@ section {
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
     .container {
         max-width: 45rem;
     }
 }
 /*------- BIG TABLET --------*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: 55rem;
     }
@@ -87,14 +87,14 @@ section {
     
 }
 /*------- DESKTOPS--------*/
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
 
     .container {
         max-width: 80rem;
     }
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1920px) {
     .container {
         max-width: 100rem;
     }
