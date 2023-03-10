@@ -4,7 +4,7 @@
 .intro {
     .img-container {
         width: 100%;
-        height: 8rem;
+        height: 16rem;
 
         img {
             height: auto;
@@ -25,7 +25,7 @@
 
     .card {
         background: vars.$colour-2;
-        padding: 1.5rem;
+        padding: 2.5rem;
         border-radius: 1rem;
         margin-bottom: 2rem;
 
@@ -57,7 +57,7 @@
 
     .intro {
         .img-container {
-            height: 8.15rem;
+            height: 20rem;
             width: 100%;
         }
 
@@ -67,13 +67,25 @@
 
     }
 
+    .showcase {
+        .card img {
+            height: 25rem;
+        }
+    }
+
 }
 /*------- BIG TABLET --------*/
 @media screen and (min-width: 768px) {
     .intro {
         .img-container.column.span8-md {
-            height: 15rem;
+            height: 25rem;
             grid-column: 2 / span 6;
+        }
+    }
+
+    .showcase {
+        .card img {
+            height: 40rem;
         }
     }
 }
@@ -83,34 +95,31 @@
         margin-bottom: 0;
     }
 
-    section.showcase {
-        margin-top: 0;
-    }
-
     .intro {
         .intro-title {
             grid-area: 1 / 1 / 2 / span 12;
         }
         .intro-content {
-            grid-area: 2 / 1 / 3 / span 7;
-        }
-
-        .img-container {
-            height: 18rem;
-
-            img {
-                margin-top: 1rem;
-            }
+            grid-area: 2 / 1 / 3 / span 6;
         }
 
         .img-container.column.span12-lg {
-            grid-area: 2 / 6 / 3 / span 8;
+            height: 25rem;
+            grid-area: 2 / 6 / 3 / span 7;
         }
     }
 
-    .card.column.span8-md {
-        grid-column: auto / span 6;
+    .showcase {
+        .card img {
+            height: 35rem;
+        }
+
+        .card.column.span8-md {
+            grid-column: auto / span 6;
+        }
     }
+
+    
 }
 /*------- DESKTOPS--------*/
 @media screen and (min-width: 1440px) {
@@ -123,7 +132,7 @@
         }
 
         .img-container {
-            height: 10rem;
+            height: 50rem;
         }
 
         .img-container.column.span12-lg {
@@ -135,12 +144,9 @@
 @media screen and (min-width: 1920px) {
     .intro {
 
-        .img-container {
-            height: 15rem;
-        }
-
         .img-container.column.span12-lg {
-            grid-area: 1 / 8 / 3 / span 6;
+            grid-area: 2 / 6 / 3 / span 6;
+            height: 30rem;
         }
     }
 }

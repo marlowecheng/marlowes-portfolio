@@ -4,6 +4,7 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -12,19 +13,13 @@ html {
 
 body {
     width: 100%;
-    font-size: 62.5%;
-    // padding: 0 10rem;
     font-family: 'Rubik', sans-serif;
     background: vars.$colour-2;
 }
 
-main {
-    font-size: 1.75rem;
-}
-
 /* ------ Utility Classes ------ */
 section {
-    margin: 2.5rem 0;
+    margin: 2rem 0;
 
     img {
         width: 100%;
@@ -58,7 +53,7 @@ section {
 }
 
 .container {
-    max-width: 30rem;
+    max-width: 55rem;
     width: 100%;
     margin: 0 auto;
     padding: 1rem 0;
@@ -70,19 +65,19 @@ section {
 /*------- SMALL TABLET --------*/
 @media screen and (min-width: 480px) {
     .container {
-        max-width: 45rem;
+        max-width: 65rem;
     }
 }
 /*------- BIG TABLET --------*/
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 55rem;
+        max-width: 75rem;
     }
 }
 /*------- LAPTOPS --------*/
 @media screen and (min-width: 1024px) {
     .container {
-        max-width: 70rem;
+        max-width: 125rem;
     }
     
 }
@@ -90,13 +85,13 @@ section {
 @media screen and (min-width: 1440px) {
 
     .container {
-        max-width: 80rem;
+        max-width: 150rem;
     }
 }
 /*------- LARGE SCREENS --------*/
 @media screen and (min-width: 1920px) {
     .container {
-        max-width: 100rem;
+        max-width: 170rem;
     }
 }
 

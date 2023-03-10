@@ -5,6 +5,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -13,18 +14,13 @@ html {
 
 body {
   width: 100%;
-  font-size: 62.5%;
   font-family: "Rubik", sans-serif;
   background: #FFFAEB;
 }
 
-main {
-  font-size: 1.75rem;
-}
-
 /* ------ Utility Classes ------ */
 section {
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 }
 section img {
   width: 100%;
@@ -52,7 +48,7 @@ section .bulleted li::before {
 }
 
 .container {
-  max-width: 30rem;
+  max-width: 55rem;
   width: 100%;
   margin: 0 auto;
   padding: 1rem 0;
@@ -64,66 +60,66 @@ section .bulleted li::before {
 /*------- SMALL TABLET --------*/
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 45rem;
+    max-width: 65rem;
   }
 }
 /*------- BIG TABLET --------*/
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 55rem;
+    max-width: 75rem;
   }
 }
 /*------- LAPTOPS --------*/
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 70rem;
+    max-width: 125rem;
   }
 }
 /*------- DESKTOPS--------*/
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 80rem;
+    max-width: 150rem;
   }
 }
 /*------- LARGE SCREENS --------*/
 @media screen and (min-width: 1920px) {
   .container {
-    max-width: 100rem;
+    max-width: 170rem;
   }
 }
 /* ------ TYPOGRAPHY ------ */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Rubik Mono One", sans-serif;
   color: #427A61;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3.2rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2.8rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 h4 {
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 
 h5 {
-  font-size: 0.4rem;
+  font-size: 1rem;
 }
 
 h6 {
-  font-size: 0.2rem;
+  font-size: 1rem;
 }
 
-p, li {
-  font-size: 1.1rem;
+p, li, .btn {
+  font-size: 1.7rem;
   line-height: 1.75;
 }
 
@@ -154,6 +150,20 @@ figcaption {
 -----------------------*/
 /*------- SMALL TABLET --------*/
 /*------- BIG TABLET --------*/
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p, li, .btn {
+    font-size: 1.8rem;
+  }
+}
 /*------- LAPTOPS --------*/
 /*------- DESKTOPS--------*/
 /*------- LARGE SCREENS --------*/
@@ -165,12 +175,10 @@ figcaption {
   background: #427A61;
   border: none;
   font-family: "Rubik", sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.75;
   color: #FFFAEB;
   border-radius: 1rem;
-  padding: 0.5rem 1.5rem;
-  max-height: 3.6rem;
+  padding: 1rem 2rem;
+  max-height: fit-content;
   max-width: fit-content;
   transition: 0.25s ease-in-out;
 }
@@ -322,7 +330,7 @@ header .column {
   flex-direction: column;
 }
 header .column .header-logo {
-  width: 5rem;
+  width: 8rem;
 }
 header .column .global-nav {
   width: 100%;
@@ -330,7 +338,7 @@ header .column .global-nav {
   flex-direction: row;
 }
 header .column .global-nav li {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   padding: 1rem;
 }
@@ -373,7 +381,7 @@ header .column .global-nav a:hover {
   margin: 0 1.5rem;
 }
 .contact .social-icons span {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #427A61;
   transition: 0.25s ease-in-out;
 }
@@ -386,6 +394,14 @@ header .column .global-nav a:hover {
 -----------------------*/
 /*------- SMALL TABLET --------*/
 /*------- BIG TABLET --------*/
+@media screen and (min-width: 768px) {
+  .contact .social-icons a {
+    margin: 0 3rem;
+  }
+  .contact .social-icons span {
+    font-size: 5rem;
+  }
+}
 /*------- LAPTOPS --------*/
 /*------- DESKTOPS--------*/
 /*------- LARGE SCREENS --------*/
@@ -406,11 +422,11 @@ footer .column .footer-logo {
   flex-basis: 33.333%;
 }
 footer .column .footer-logo img {
-  width: 2.5rem;
+  width: 5rem;
 }
 footer .column p {
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-align: center;
   flex-basis: 33.333%;
 }
@@ -441,7 +457,7 @@ footer .column .socials i {
 /* ------ Index ------ */
 .intro .img-container {
   width: 100%;
-  height: 8rem;
+  height: 16rem;
 }
 .intro .img-container img {
   height: auto;
@@ -458,7 +474,7 @@ footer .column .socials i {
 }
 .showcase .card {
   background: #FFFAEB;
-  padding: 1.5rem;
+  padding: 2.5rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
 }
@@ -484,18 +500,24 @@ footer .column .socials i {
 /*------- SMALL TABLET --------*/
 @media screen and (min-width: 480px) {
   .intro .img-container {
-    height: 8.15rem;
+    height: 20rem;
     width: 100%;
   }
   .intro .img-container.column.span8-md {
     grid-column: 1/span 8;
   }
+  .showcase .card img {
+    height: 25rem;
+  }
 }
 /*------- BIG TABLET --------*/
 @media screen and (min-width: 768px) {
   .intro .img-container.column.span8-md {
-    height: 15rem;
+    height: 25rem;
     grid-column: 2/span 6;
+  }
+  .showcase .card img {
+    height: 40rem;
   }
 }
 /*------- LAPTOPS --------*/
@@ -503,25 +525,20 @@ footer .column .socials i {
   section.intro {
     margin-bottom: 0;
   }
-  section.showcase {
-    margin-top: 0;
-  }
   .intro .intro-title {
     grid-area: 1/1/2/span 12;
   }
   .intro .intro-content {
-    grid-area: 2/1/3/span 7;
-  }
-  .intro .img-container {
-    height: 18rem;
-  }
-  .intro .img-container img {
-    margin-top: 1rem;
+    grid-area: 2/1/3/span 6;
   }
   .intro .img-container.column.span12-lg {
-    grid-area: 2/6/3/span 8;
+    height: 25rem;
+    grid-area: 2/6/3/span 7;
   }
-  .card.column.span8-md {
+  .showcase .card img {
+    height: 35rem;
+  }
+  .showcase .card.column.span8-md {
     grid-column: auto/span 6;
   }
 }
@@ -534,7 +551,7 @@ footer .column .socials i {
     grid-area: 2/1/3/span 7;
   }
   .intro .img-container {
-    height: 10rem;
+    height: 50rem;
   }
   .intro .img-container.column.span12-lg {
     grid-area: 1/7/3/span 7;
@@ -542,11 +559,9 @@ footer .column .socials i {
 }
 /*------- LARGE SCREENS --------*/
 @media screen and (min-width: 1920px) {
-  .intro .img-container {
-    height: 15rem;
-  }
   .intro .img-container.column.span12-lg {
-    grid-area: 1/8/3/span 6;
+    grid-area: 2/6/3/span 6;
+    height: 30rem;
   }
 }
 /* ------ About ------ */
@@ -560,7 +575,7 @@ footer .column .socials i {
   margin-bottom: 2.5rem;
 }
 .skills .smol-txt {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .values h2,
@@ -581,7 +596,7 @@ footer .column .socials i {
   border-radius: 0;
   margin-bottom: 1.5rem;
   grid-column: 1/span 1;
-  height: 2.5rem;
+  height: 4rem;
 }
 .values .card h3,
 .goals .card h3 {
@@ -593,7 +608,7 @@ footer .column .socials i {
 }
 .mission p {
   color: #FFFAEB;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /*----------------------
