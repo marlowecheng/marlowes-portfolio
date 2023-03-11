@@ -722,6 +722,7 @@ footer .column .socials i {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 3rem;
+  flex-direction: column;
 }
 .projects .proj-card h3 a {
   transition: 0.25s ease-in-out;
@@ -767,9 +768,10 @@ footer .column .socials i {
 /*----------------------
     Responsiveness
 -----------------------*/
-/*------- TABLET --------*/
+/*------- SMALL TABLET --------*/
+/*------- BIG TABLET --------*/
 /*------- LAPTOPS --------*/
-/*------- DESKTOPS --------*/
+/*------- DESKTOPS--------*/
 /*------- LARGE SCREENS --------*/
 /* ------ Indv. Project Page ------ */
 .proj-intro .proj-header {

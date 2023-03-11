@@ -7,6 +7,7 @@
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 3rem;
+        flex-direction: column;
 
         h3 a {
             transition: .25s ease-in-out;
@@ -66,19 +67,24 @@
 /*----------------------
     Responsiveness
 -----------------------*/
-/*------- TABLET --------*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    
+/*------- SMALL TABLET --------*/
+@media screen and (min-width: 480px) {
+
+}
+/*------- BIG TABLET --------*/
+@media screen and (min-width: 768px) {
+
 }
 /*------- LAPTOPS --------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+
     
 }
-/*------- DESKTOPS --------*/
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+/*------- DESKTOPS--------*/
+@media screen and (min-width: 1440px) {
     
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1920px) {
     
 }
