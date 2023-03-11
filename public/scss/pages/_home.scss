@@ -52,6 +52,16 @@
 /*----------------------
     Responsiveness
 -----------------------*/
+
+/*------- TINY PHONE --------*/
+@media screen and (max-width: 350px) {
+    .intro {
+        .img-container {
+            display: none;
+        }
+    }
+}
+
 /*------- SMALL TABLET --------*/
 @media screen and (min-width: 480px) {
 
@@ -111,7 +121,7 @@
 
     .showcase {
         .card img {
-            height: 35rem;
+            height: 28rem;
         }
 
         .card.column.span8-md {
@@ -139,14 +149,29 @@
             grid-area: 1 / 7 / 3 / span 7;
         }
     }
+
+    .showcase {
+        .card img {
+            height: 32rem;
+        }
+    }
 }
 /*------- LARGE SCREENS --------*/
 @media screen and (min-width: 1920px) {
     .intro {
+        .intro-content {
+            grid-area: 2 / 1 / 3 / span 6;
+        }
 
         .img-container.column.span12-lg {
             grid-area: 2 / 6 / 3 / span 6;
             height: 30rem;
+        }
+    }
+
+    .showcase {
+        .card img {
+            height: 38rem;
         }
     }
 }
