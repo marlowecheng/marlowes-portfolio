@@ -63,7 +63,6 @@
                                     <p>School project from the course: Mobile Web. A responsive hero banner with copy and a call-to-action was made using the @media tool in CSS.</p>
                                 </div>
                             </div>
-                           
                         </div>
                     </div>
                 </div>

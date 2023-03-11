@@ -60,22 +60,26 @@
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
     .about-me {
         img.column.span8-md {
             grid-column: 2 / span 6;
         }
     }
-
+    
     .values,
     .goals {
-        .card {
-            grid-column: auto / span 4; 
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 4rem 1fr;
+        .card.column {
+            grid-column: 1 / span 8;
+        }
 
-            > .column {
-                grid-column: 1 / span 4;
+        .card {
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: 6rem 1fr;
+            
+            > img {
+                margin-bottom: 2.5rem;
+                height: 5rem;
             }
 
             > img.span8-md {
@@ -92,7 +96,7 @@
         }
     }
 
-    .skills 
+    .skills {
         .skill-card {
             grid-column: auto / span 4;
         }
@@ -101,13 +105,51 @@
             grid-column: auto / span 8;
         }
     }
-
-/*------- LAPTOPS --------*/
-@media screen and (min-width: 1024px) {
+    
     .values,
     .goals {
         .card {
-            grid-column: auto / span 6; 
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 6rem 1fr;
+
+            > .column {
+                grid-column: 1 / span 4;
+            }
+
+            > img.span8-md {
+                grid-column: 1 / span 1;
+            }
+        }
+
+        .card.column {
+            grid-column: auto / span 4;
+        }
+    }
+}
+
+/*------- LAPTOPS --------*/
+@media screen and (min-width: 1024px) {
+    .about-me {
+        .about-content.column.span12-lg {
+            grid-column: 1 / span 8;
+        }
+
+        img {
+            margin-top: 0;
+        }
+
+        img.column.span12-lg {
+            grid-column: auto / span 4;
+        }
+    }
+
+    .values,
+    .goals {
+        .card.column {
+            grid-column: auto / span 6;
+        }
+
+        .card {
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: 8rem 1fr;
 
@@ -120,6 +162,12 @@
             }
         }
     }
+
+    .skills {
+        .skill-card.column {
+            grid-column: auto / span 4;
+        }
+    }
     
 }
 /*------- DESKTOPS--------*/
@@ -127,6 +175,6 @@
     
 }
 /*------- LARGE SCREENS --------*/
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1920px) {
     
 }

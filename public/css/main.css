@@ -72,19 +72,19 @@ section .bulleted li::before {
 /*------- LAPTOPS --------*/
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 125rem;
+    max-width: 110rem;
   }
 }
 /*------- DESKTOPS--------*/
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 150rem;
+    max-width: 130rem;
   }
 }
 /*------- LARGE SCREENS --------*/
 @media screen and (min-width: 1920px) {
   .container {
-    max-width: 170rem;
+    max-width: 150rem;
   }
 }
 /* ------ TYPOGRAPHY ------ */
@@ -497,6 +497,12 @@ footer .column .socials i {
 /*----------------------
     Responsiveness
 -----------------------*/
+/*------- TINY PHONE --------*/
+@media screen and (max-width: 350px) {
+  .intro .img-container {
+    display: none;
+  }
+}
 /*------- SMALL TABLET --------*/
 @media screen and (min-width: 480px) {
   .intro .img-container {
@@ -536,7 +542,7 @@ footer .column .socials i {
     grid-area: 2/6/3/span 7;
   }
   .showcase .card img {
-    height: 35rem;
+    height: 28rem;
   }
   .showcase .card.column.span8-md {
     grid-column: auto/span 6;
@@ -556,12 +562,21 @@ footer .column .socials i {
   .intro .img-container.column.span12-lg {
     grid-area: 1/7/3/span 7;
   }
+  .showcase .card img {
+    height: 32rem;
+  }
 }
 /*------- LARGE SCREENS --------*/
 @media screen and (min-width: 1920px) {
+  .intro .intro-content {
+    grid-area: 2/1/3/span 6;
+  }
   .intro .img-container.column.span12-lg {
     grid-area: 2/6/3/span 6;
     height: 30rem;
+  }
+  .showcase .card img {
+    height: 38rem;
   }
 }
 /* ------ About ------ */
@@ -615,19 +630,23 @@ footer .column .socials i {
     Responsiveness
 -----------------------*/
 /*------- SMALL TABLET --------*/
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
   .about-me img.column.span8-md {
     grid-column: 2/span 6;
   }
+  .values .card.column,
+  .goals .card.column {
+    grid-column: 1/span 8;
+  }
   .values .card,
   .goals .card {
-    grid-column: auto/span 4;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 4rem 1fr;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 6rem 1fr;
   }
-  .values .card > .column,
-  .goals .card > .column {
-    grid-column: 1/span 4;
+  .values .card > img,
+  .goals .card > img {
+    margin-bottom: 2.5rem;
+    height: 5rem;
   }
   .values .card > img.span8-md,
   .goals .card > img.span8-md {
@@ -642,15 +661,44 @@ footer .column .socials i {
   .skills .skill-card {
     grid-column: auto/span 4;
   }
-  .skill-card:last-child {
+  .skills .skill-card:last-child {
     grid-column: auto/span 8;
+  }
+  .values .card,
+  .goals .card {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 6rem 1fr;
+  }
+  .values .card > .column,
+  .goals .card > .column {
+    grid-column: 1/span 4;
+  }
+  .values .card > img.span8-md,
+  .goals .card > img.span8-md {
+    grid-column: 1/span 1;
+  }
+  .values .card.column,
+  .goals .card.column {
+    grid-column: auto/span 4;
   }
 }
 /*------- LAPTOPS --------*/
 @media screen and (min-width: 1024px) {
+  .about-me .about-content.column.span12-lg {
+    grid-column: 1/span 8;
+  }
+  .about-me img {
+    margin-top: 0;
+  }
+  .about-me img.column.span12-lg {
+    grid-column: auto/span 4;
+  }
+  .values .card.column,
+  .goals .card.column {
+    grid-column: auto/span 6;
+  }
   .values .card,
   .goals .card {
-    grid-column: auto/span 6;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 8rem 1fr;
   }
@@ -662,6 +710,9 @@ footer .column .socials i {
   .goals .card > img.span12-md {
     grid-column: 1/span 6;
   }
+  .skills .skill-card.column {
+    grid-column: auto/span 4;
+  }
 }
 /*------- DESKTOPS--------*/
 /*------- LARGE SCREENS --------*/
@@ -671,6 +722,7 @@ footer .column .socials i {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 3rem;
+  flex-direction: column;
 }
 .projects .proj-card h3 a {
   transition: 0.25s ease-in-out;
@@ -716,9 +768,10 @@ footer .column .socials i {
 /*----------------------
     Responsiveness
 -----------------------*/
-/*------- TABLET --------*/
+/*------- SMALL TABLET --------*/
+/*------- BIG TABLET --------*/
 /*------- LAPTOPS --------*/
-/*------- DESKTOPS --------*/
+/*------- DESKTOPS--------*/
 /*------- LARGE SCREENS --------*/
 /* ------ Indv. Project Page ------ */
 .proj-intro .proj-header {
