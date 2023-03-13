@@ -100,16 +100,49 @@
 -----------------------*/
 /*------- SMALL TABLET --------*/
 @media screen and (min-width: 480px) {
+    .proj-process {
+        .lb-container {
+            a.column.span8-md {
+                grid-column: span 4;
+            }
+        }
 
+        .lb-container.final-poster {
+            a.column.span8-md {
+                grid-column: 2 / span 6;
+            }
+        }
+    }
 }
 /*------- BIG TABLET --------*/
 @media screen and (min-width: 768px) {
-
+    .proj-intro {
+        .grid-col > :not(.proj-header) {
+            grid-column: span 4;
+        }
+    }
 }
 /*------- LAPTOPS --------*/
 @media screen and (min-width: 1024px) {
+    .proj-intro {
+        .grid-col > :not(.proj-header) {
+            grid-column: span 6;
+        }
+    }
 
-    
+    .proj-process {
+        .lb-container {
+            a.column.span12-lg {
+                grid-column: span 3;
+            }
+        }
+
+        .lb-container.final-poster {
+            a.column.span12-lg {
+                grid-column: 3 / span 8;
+            }
+        }
+    }
 }
 /*------- DESKTOPS--------*/
 @media screen and (min-width: 1440px) {

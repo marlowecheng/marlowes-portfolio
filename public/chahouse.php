@@ -129,7 +129,7 @@
                     <p class="column">A subtle gradient was added behind the slogan and logo since the background is quite visually busy. The gradient makes the slogan and logo stand out more. With that, the project was complete!</p>
                     <div class="column lb-container final-poster">
                         <div class="grid-col">
-                            <a href="<?php echo get_public_url('images/proj-chahouse/chahouse-final.jpg'); ?>" data-lightbox="chahouse"  data-title="3D rotated bottle and cap" data-alt="3D rotated bottle and cap">
+                            <a href="<?php echo get_public_url('images/proj-chahouse/chahouse-final.jpg'); ?>" data-lightbox="chahouse"  data-title="3D rotated bottle and cap" data-alt="3D rotated bottle and cap" class="column span4 span8-md span12-lg">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-final.jpg'); ?>" alt="3D rotated bottle and cap">
                             </a>
                         </div>
