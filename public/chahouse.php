@@ -60,8 +60,8 @@
                     <h2 class="column">Branding</h2>
                     <p class="column">Cha – 茶 – is ‘tea’ in Mandarin, so Cha House means ‘tea house’. In the company name, I wanted to convey the relaxing and casual feelings of tea houses in China.</p>
                     <p class="column">For the logo, I wanted to draw a shape that would be similar to the modern Chinese character for tea pot – 壺 – since, historically, written Chinese originates from picto- graphs. In the final version, I took inspiration from the ancient glyph (the reference on the right) for the Chinese character for ‘tea pot’. The tea pot in the logo refers to the ‘cha’, and the shape on top of the tea pot looks like a house.</p>
-                    <div class="lb-container glyph column">
-                        <a href="<?php echo get_public_url('images/proj-chahouse/teapot-glyph.png'); ?>" data-lightbox="chahouse" data-title="Teapot glyph" data-alt="ancient chinese glyph for teapot">
+                    <div class="lb-container glyph column grid-col">
+                        <a href="<?php echo get_public_url('images/proj-chahouse/teapot-glyph.png'); ?>" data-lightbox="chahouse" data-title="Teapot glyph" data-alt="ancient chinese glyph for teapot" class="span4 span8-md span12-lg">
                             <img src="<?php echo get_public_url('images/proj-chahouse/teapot-glyph.png'); ?>" alt="ancient chinese glyph for teapot">
                         </a>
                     </div>
@@ -95,10 +95,6 @@
                             <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-teacup.jpg'); ?>" data-lightbox="chahouse" data-title="3D rotates teacup" data-alt="3D rotates teacup">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-teacup.jpg'); ?>" alt="3D rotates teacup">
                             </a>
-                        </div>
-                    </div>
-                    <div class="column lb-container">
-                        <div class="grid-col">
                             <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-stage0.jpg'); ?>" data-lightbox="chahouse"  data-title="Staging one of a bottle, teapot, and teacup" data-alt="Staging one of a bottle, teapot, and teacup">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-stage0.jpg'); ?>" alt="Staging one of a bottle, teapot, and teacup">
                             </a>

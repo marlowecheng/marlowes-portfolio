@@ -89,13 +89,11 @@
                 <div class="grid-col">
                     <h2 class="column">Revising</h2>
                     <p class="column">I moved the control buttons from above the animation to below the animation, since the layout looked top-heavy before; this would make the layout more balanced. Used @import in the CSS to replace linking it in the HTML as this would make changing the font a lot easier if this was a multi-page website; I would only need to change something in one file instead of every HTML page. Added responsiveness using the mobile-first approach, making the viewport mobile-sized, and changing all CSS units from px to rem (where 1 rem = 10px by adding font-size: 62.5%; in the body). Breakpoints used were 375px, 425px, 768px, 1024px, and 1440px. At each increasing viewport size breakpoint, the button sizes, the animation size, and the font sizes all increase incrementally.</p>
-                    <div class="lb-container column">
+                    <div class="lb-container final-poster column">
                         <div class="grid-col">
-                            <div class="column span4 span8-md span12-lg"></div>
                             <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-gsap/bao-new.jpg'); ?>" data-lightbox="bao-deliverables" data-title="Revised version of the product" data-alt="Revised version of the Bao GSAP animation">
                                 <img src="<?php echo get_public_url('images/proj-gsap/bao-new.jpg'); ?>" alt="Revised version of the Bao GSAP animation">
                             </a>
-                            <div class="column span4 span8-md span12-lg"></div>
                         </div>
                     </div>
                 </div>

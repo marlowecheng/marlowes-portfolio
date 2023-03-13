@@ -62,22 +62,24 @@
             cursor: pointer;
             object-position: 60% 10%;
         }
+
+        a.column.span4 {
+            grid-column: span 2;
+        }
     }
 
     .lb-container.glyph {
-        grid-column: 6 / span 2;
+        a {
+            margin: 0 auto;
+        }
         img {
             height: 10rem;
         }
     }
 
     .lb-container.final-poster {
-        a {
-            grid-column: 4 / span 6;
-        }
-
-        img {
-            height: 50rem;
+        a.column.span4 {
+            grid-column: span 4;
         }
     }
 }

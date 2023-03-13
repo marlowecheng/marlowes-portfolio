@@ -850,17 +850,17 @@ footer .column .socials i {
   cursor: pointer;
   object-position: 60% 10%;
 }
-.proj-process .lb-container.glyph {
-  grid-column: 6/span 2;
+.proj-process .lb-container a.column.span4 {
+  grid-column: span 2;
+}
+.proj-process .lb-container.glyph a {
+  margin: 0 auto;
 }
 .proj-process .lb-container.glyph img {
   height: 10rem;
 }
-.proj-process .lb-container.final-poster a {
-  grid-column: 4/span 6;
-}
-.proj-process .lb-container.final-poster img {
-  height: 50rem;
+.proj-process .lb-container.final-poster a.column.span4 {
+  grid-column: span 4;
 }
 
 .proj-closing {

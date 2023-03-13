@@ -78,13 +78,11 @@
                 <div class="grid-col">
                     <h2 class="column">Revisions</h2>
                     <p class="column">Added breakpoints at 710px and 856px for responsiveness for horizontal mobile view. Cleaning up of redundant CSS code and deleted unused classes in the HTML. Replaced <link> tag for font with @import in the CSS document for best practice.</p>
-                    <div class="lb-container column">
+                    <div class="lb-container final-poster column">
                         <div class="grid-col">
-                            <div class="column span4 span8-md span12-lg"></div>
                             <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 710px breakpoint for horizontal mobile view" data-alt="Restwel banner with header, copy inside the banner">
                                 <img src="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" alt="Restwel banner with header, copy inside the banner">
                             </a>
-                            <div class="column span4 span8-md span12-lg"></div>
                         </div>
                     </div>
                 </div>
