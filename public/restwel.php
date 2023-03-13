@@ -14,15 +14,13 @@
                         <h1>Restwel Responsive Banner</h1>
                         <div class="proj-tags">
                             <p>Web Development</p>
-                            <p>Student Project</p>
-                            <p>Individual Project</p>
                         </div>
                     </div>
-                    <div class="column span7">
+                    <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
                         <p>The goal of this assignment was to create a logo, colour palette, and branding for a fictional or real company and make a stationary set that included a business card, envelope, and a letterhead. All of which was accomplished using Adobe InDesign 2022.</p>
                     </div>
-                    <div class="column span5">
+                    <div class="column span4 span8-md span12-lg">
                         <h3>Details</h3>
                         <ul class="bulleted">
                             <li>Role &mdash; Web Developer</li>
@@ -60,13 +58,13 @@
                     <p class="column">The @media was written for each breakpoint: 414px, 576px, 768px, 992px, 1200px. For viewport sizes that are less than 575px in width, the banner image would only contain the header with the copy and the button are underneath it. For viewport sizes 991px and below, everything is center-justified with the header and copy inside the banner image and the button still outside the banner. Viewport width 992px and above has the content left-justified with the header, copy and button inside the banner image, font-size is also increased. At viewport width 1200px, the font-size is increased and the banner image height is also increased.</p>
                     <div class="lb-container column">
                         <div class="grid-col">
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-restwel/restwel-414px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 414px breakpoint" data-alt="Restwel banner with copy and button below the banner">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-414px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 414px breakpoint" data-alt="Restwel banner with copy and button below the banner">
                                 <img src="<?php echo get_public_url('images/proj-restwel/restwel-414px.jpg'); ?>" alt="Restwel banner with copy and button below the banner">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-restwel/restwel-576px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 576px breakpoint" data-alt="Restwel banner with button below the banner">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-576px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 576px breakpoint" data-alt="Restwel banner with button below the banner">
                                 <img src="<?php echo get_public_url('images/proj-restwel/restwel-576px.jpg'); ?>" alt="Restwel banner with button below the banner">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-restwel/restwel-1200px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 1200px breakpoint" data-alt="Restwel banner with header, copy and button inside the banner">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-1200px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 1200px breakpoint" data-alt="Restwel banner with header, copy and button inside the banner">
                                 <img src="<?php echo get_public_url('images/proj-restwel/restwel-1200px.jpg'); ?>" alt="Restwel banner with header, copy and button inside the banner">
                             </a>
                             
@@ -82,11 +80,11 @@
                     <p class="column">Added breakpoints at 710px and 856px for responsiveness for horizontal mobile view. Cleaning up of redundant CSS code and deleted unused classes in the HTML. Replaced <link> tag for font with @import in the CSS document for best practice.</p>
                     <div class="lb-container column">
                         <div class="grid-col">
-                            <div class="column span3"></div>
-                            <a class="column span6" href="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 710px breakpoint for horizontal mobile view" data-alt="Restwel banner with header, copy inside the banner">
+                            <div class="column span4 span8-md span12-lg"></div>
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 710px breakpoint for horizontal mobile view" data-alt="Restwel banner with header, copy inside the banner">
                                 <img src="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" alt="Restwel banner with header, copy inside the banner">
                             </a>
-                            <div class="column span3"></div>
+                            <div class="column span4 span8-md span12-lg"></div>
                         </div>
                     </div>
                 </div>

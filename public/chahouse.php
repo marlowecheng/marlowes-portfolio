@@ -14,15 +14,13 @@
                         <h1>Cha House Kombucha</h1>
                         <div class="proj-tags">
                             <p>Graphic Design</p>
-                            <p>Student Project</p>
-                            <p>Individual Project</p>
                         </div>
                     </div>
-                    <div class="column span7">
+                    <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
                         <p>The goal of this project was to make a poster advertisment for a fictional beverage company using Adobe Illustrator. Illustrator tools used throughout this project includes: type tool, 3D revolve, 3D extrude, 3D mapping, perspective grid tool, and more. </p>
                     </div>
-                    <div class="column span5">
+                    <div class="column span4 span8-md span12-lg">
                         <h3>Details</h3>
                         <ul class="bulleted">
                             <li>Role &mdash; Graphic designer</li>
@@ -42,13 +40,13 @@
                     </div>
                     <div class="column lb-container">
                         <div class="grid-col">
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-logo1.jpg') ?>" data-lightbox="chahouse" data-title="Company name brainstorm and thumbnail sketches of logo" data-alt="Company name brainstorm and thumbnail sketches of logo">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-logo1.jpg') ?>" data-lightbox="chahouse" data-title="Company name brainstorm and thumbnail sketches of logo" data-alt="Company name brainstorm and thumbnail sketches of logo">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-logo1.jpg') ?>" alt="Company name brainstorm and thumbnail sketches of logo">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-logo2.jpg'); ?>" data-lightbox="chahouse" data-title="Company name brainstorm and thumbnail sketches of logo" data-alt="Company name brainstorm and thumbnail sketches of logo">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-logo2.jpg'); ?>" data-lightbox="chahouse" data-title="Company name brainstorm and thumbnail sketches of logo" data-alt="Company name brainstorm and thumbnail sketches of logo">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-logo2.jpg'); ?>" alt="Company name brainstorm and thumbnail sketches of logo">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-labels.jpg'); ?>" data-lightbox="chahouse" data-title="Thumbnail sketches of containers and label for the kombucha bottle" data-alt="Thumbnail sketches of containers and label for the kombucha bottle">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-labels.jpg'); ?>" data-lightbox="chahouse" data-title="Thumbnail sketches of containers and label for the kombucha bottle" data-alt="Thumbnail sketches of containers and label for the kombucha bottle">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-thumbs-labels.jpg'); ?>" alt="Thumbnail sketches of containers and label for the kombucha bottle">
                             </a>
                         </div>
@@ -70,10 +68,10 @@
                     <p class="column">The lines of the logo and typography are mostly curved to smoothly guide the eyes, and also give off casual feelings since everything is rounded. The colours I chose for the logo are different values of green to encourage psychological associations with nature and freshness, and green tea leaves.</p>
                     <div class="column lb-container">
                         <div class="grid-col">
-                            <a class="column span6" href="<?php echo get_public_url('images/proj-chahouse/chahouse-logo-bw.jpg'); ?>" data-lightbox="chahouse" data-title="Cha House Kombucha logo in black outline" data-alt="Cha House Kombucha logo in black outline">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-logo-bw.jpg'); ?>" data-lightbox="chahouse" data-title="Cha House Kombucha logo in black outline" data-alt="Cha House Kombucha logo in black outline">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-logo-bw.jpg'); ?>" alt="Cha House Kombucha logo in black outline">
                             </a>
-                            <a class="column span6" href="<?php echo get_public_url('images/proj-chahouse/chahouse-logo.jpg'); ?>" data-lightbox="chahouse" data-title="Cha House Kombucha logo in colour" data-alt="Cha House Kombucha logo in colour">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-logo.jpg'); ?>" data-lightbox="chahouse" data-title="Cha House Kombucha logo in colour" data-alt="Cha House Kombucha logo in colour">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-logo.jpg'); ?>" alt="Cha House Kombucha logo in colour">
                             </a>
                         </div>
@@ -88,26 +86,26 @@
                     <p class="column">Using reference images from Adobe Stock and Google Images, the bottle, teacups and teapot was created using Illustrator’s 3D materials tools. The bottle lable was sketched, iterated, and digitalized in Illustrator to be able to map onto the created 3D bottle. Here, I played with several different staging for all the items.</p>
                     <div class="column lb-container">
                         <div class="grid-col">
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-bottle.jpg'); ?>" data-lightbox="chahouse"  data-title="3D rotated bottle and cap" data-alt="3D rotated bottle and cap">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-bottle.jpg'); ?>" data-lightbox="chahouse"  data-title="3D rotated bottle and cap" data-alt="3D rotated bottle and cap">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-bottle.jpg'); ?>" alt="3D rotated bottle and cap">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-teapot.jpg'); ?>" data-lightbox="chahouse" data-title="3D rotated teapot and extruded handle and spout" data-alt="3D rotated teapot and extruded handle and spout">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-teapot.jpg'); ?>" data-lightbox="chahouse" data-title="3D rotated teapot and extruded handle and spout" data-alt="3D rotated teapot and extruded handle and spout">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-teapot.jpg'); ?>" alt="3D rotated teapot and extruded handle and spout">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-teacup.jpg'); ?>" data-lightbox="chahouse" data-title="3D rotates teacup" data-alt="3D rotates teacup">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-teacup.jpg'); ?>" data-lightbox="chahouse" data-title="3D rotates teacup" data-alt="3D rotates teacup">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-teacup.jpg'); ?>" alt="3D rotates teacup">
                             </a>
                         </div>
                     </div>
                     <div class="column lb-container">
                         <div class="grid-col">
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-stage0.jpg'); ?>" data-lightbox="chahouse"  data-title="Staging one of a bottle, teapot, and teacup" data-alt="Staging one of a bottle, teapot, and teacup">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-stage0.jpg'); ?>" data-lightbox="chahouse"  data-title="Staging one of a bottle, teapot, and teacup" data-alt="Staging one of a bottle, teapot, and teacup">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-stage0.jpg'); ?>" alt="Staging one of a bottle, teapot, and teacup">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-stage1.jpg'); ?>" data-lightbox="chahouse" data-title="Staging 3 bottles, 1 teapot and 5 teacups" data-alt="Staging 3 bottles, 1 teapot and 5 teacups">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-stage1.jpg'); ?>" data-lightbox="chahouse" data-title="Staging 3 bottles, 1 teapot and 5 teacups" data-alt="Staging 3 bottles, 1 teapot and 5 teacups">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-stage1.jpg'); ?>" alt="Staging 3 bottles, 1 teapot and 5 teacups">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-chahouse/chahouse-stage2.jpg'); ?>" data-lightbox="chahouse" data-title="Staging of 3 bottles, 1 teapot, and 3 teacups" data-alt="Staging of 3 bottles, 1 teapot, and 3 teacups">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-stage2.jpg'); ?>" data-lightbox="chahouse" data-title="Staging of 3 bottles, 1 teapot, and 3 teacups" data-alt="Staging of 3 bottles, 1 teapot, and 3 teacups">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-stage2.jpg'); ?>" alt="Staging of 3 bottles, 1 teapot, and 3 teacups">
                             </a>
                         </div>
@@ -123,11 +121,11 @@
                     <p class="column">I also built a table and tea tray using Illustrator's extrude tool and mapped textures from Adobe Stock onto them.</p>
                     <div class="column lb-container">
                         <div class="grid-col">
-                            <div class="column span1"></div>
-                            <a class="column span5" href="<?php echo get_public_url('images/proj-chahouse/chahouse-framing.png'); ?>" data-lightbox="chahouse"  data-title="3D rotated bottle and cap" data-alt="3D rotated bottle and cap">
+                            <div class="column span4 span8-md span12-lg"></div>
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-framing.png'); ?>" data-lightbox="chahouse"  data-title="3D rotated bottle and cap" data-alt="3D rotated bottle and cap">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-framing.png'); ?>" alt="3D rotated bottle and cap">
                             </a>
-                            <a class="column span5" href="<?php echo get_public_url('images/proj-chahouse/chahouse-perspective.png'); ?>" data-lightbox="chahouse" data-title="3D rotated teapot and extruded handle and spout" data-alt="3D rotated teapot and extruded handle and spout">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-chahouse/chahouse-perspective.png'); ?>" data-lightbox="chahouse" data-title="3D rotated teapot and extruded handle and spout" data-alt="3D rotated teapot and extruded handle and spout">
                                 <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-perspective.png'); ?>" alt="3D rotated teapot and extruded handle and spout">
                             </a>
                         </div>

@@ -14,15 +14,13 @@
                         <h1>Bao GSAP Animation</h1>
                         <div class="proj-tags">
                             <p>Web Development</p>
-                            <p>Student Project</p>
-                            <p>Individual Project</p>
                         </div>
                     </div>
-                    <div class="column span7">
+                    <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
                         <p>The goal of this project was to demonstrate my knowledge on the Javascript animation plugin: GreenSock Animation Platform or GSAP. I converted an Illustrator illustration with multiple layers into an SVG, took the code from the SVG file, added it to the HTML, and used GSAP to animate it. GSAP features used were Tween and Timeline.</p>
                     </div>
-                    <div class="column span5">
+                    <div class="column span4 span8-md span12-lg">
                         <h3>Details</h3>
                         <ul class="bulleted">
                             <li>Role &mdash; Web Developer</li>
@@ -42,13 +40,13 @@
                         <p>I found a cute dumpling vector on Adobe Stock that included 3 dumplings and a pair of chopsticks. Since the vector file cuts off the chopsticks, I made the artboard bigger to include the chopsticks fully in Adobe Illustrator. I also separated each dumpling and chopstick into its own layer and named the layers accordingly, this will be useful later as the layer names will become the ID of each element in the SVG. Cleaned up the SVG code using SVGOMG to keep the file size small, some features used included: remove doctype, remove XML instructions, merge styles, and remove empty containers</p>
                         <div class="lb-container column">
                             <div class="grid-col">
-                                <a class="column span4" href="<?php echo get_public_url('images/proj-gsap/bao-illustrator.png'); ?>" data-lightbox="bao-prep" data-title="Dumplings illustration from Adobe Stock in Adobe Illustrator" data-alt="3 illustrations of dumplings with a pair of chopsticks">
+                                <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-gsap/bao-illustrator.png'); ?>" data-lightbox="bao-prep" data-title="Dumplings illustration from Adobe Stock in Adobe Illustrator" data-alt="3 illustrations of dumplings with a pair of chopsticks">
                                     <img src="<?php echo get_public_url('images/proj-gsap/bao-illustrator.png'); ?>" alt="3 illustrations of dumplings with a pair of chopsticks">
                                 </a>
-                                <a class="column span4" href="<?php echo get_public_url('images/proj-gsap/bao-layers.png'); ?>" data-lightbox="bao-prep" data-title="Dumplings illustration from Adobe Stock in Adobe Illustrator" data-alt="screenshot of the layers panel in Adobe Illustrator">
+                                <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-gsap/bao-layers.png'); ?>" data-lightbox="bao-prep" data-title="Dumplings illustration from Adobe Stock in Adobe Illustrator" data-alt="screenshot of the layers panel in Adobe Illustrator">
                                     <img src="<?php echo get_public_url('images/proj-gsap/bao-layers.png'); ?>" alt="screenshot of the layers panel in Adobe Illustrator">
                                 </a>
-                                <a class="column span4" href="<?php echo get_public_url('images/proj-gsap/bao-svgomg.jpg'); ?>" data-lightbox="bao-prep" data-title="Dumplings illustration from Adobe Stock in Adobe Illustrator" data-alt="screenshot of the layers panel in Adobe Illustrator">
+                                <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-gsap/bao-svgomg.jpg'); ?>" data-lightbox="bao-prep" data-title="Dumplings illustration from Adobe Stock in Adobe Illustrator" data-alt="screenshot of the layers panel in Adobe Illustrator">
                                     <img src="<?php echo get_public_url('images/proj-gsap/bao-svgomg.jpg'); ?>" alt="screenshot of the layers panel in Adobe Illustrator">
                                 </a>
                             </div>
@@ -73,14 +71,14 @@
                     <p class="column">Timeline is a much powerful tool, as it allows easier controlling of timing and delays; future changes for small tweaks would not involve changing the delay of the whole sequence one by one like in Tween. Using the base code from the Tween version, the gsap in gsap.to() was replaced with a variable that contained gsap.timeline(). Other than that, everything was kept relatively the same. Since the whole animation can be called with one variable, I was able to attach it to the buttons to be able to control all the elements in the animation.</p>
                     <div class="lb-container column">
                         <div class="grid-col">
-                            <div class="column span2"></div>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-gsap/bao-code.png'); ?>" data-lightbox="bao-deliverables" data-title="Code for the first iteration of the animation" data-alt="GSAP code in Visual Studio Code">
+                            <div class="column span4 span8-md span12-lg"></div>
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-gsap/bao-code.png'); ?>" data-lightbox="bao-deliverables" data-title="Code for the first iteration of the animation" data-alt="GSAP code in Visual Studio Code">
                                 <img src="<?php echo get_public_url('images/proj-gsap/bao-code.png'); ?>" alt="GSAP code in Visual Studio Code">
                             </a>
-                            <a class="column span4" href="<?php echo get_public_url('images/proj-gsap/bao-old.jpg'); ?>" data-lightbox="bao-deliverables" data-title="First iteration of the product" data-alt="Older version of the Bao GSAP animation">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-gsap/bao-old.jpg'); ?>" data-lightbox="bao-deliverables" data-title="First iteration of the product" data-alt="Older version of the Bao GSAP animation">
                                 <img src="<?php echo get_public_url('images/proj-gsap/bao-old.jpg'); ?>" alt="Older version of the Bao GSAP animation">
                             </a>
-                            <div class="column span2"></div>
+                            <div class="column span4 span8-md span12-lg"></div>
                         </div>
                     </div>
                 </div>
@@ -93,11 +91,11 @@
                     <p class="column">I moved the control buttons from above the animation to below the animation, since the layout looked top-heavy before; this would make the layout more balanced. Used @import in the CSS to replace linking it in the HTML as this would make changing the font a lot easier if this was a multi-page website; I would only need to change something in one file instead of every HTML page. Added responsiveness using the mobile-first approach, making the viewport mobile-sized, and changing all CSS units from px to rem (where 1 rem = 10px by adding font-size: 62.5%; in the body). Breakpoints used were 375px, 425px, 768px, 1024px, and 1440px. At each increasing viewport size breakpoint, the button sizes, the animation size, and the font sizes all increase incrementally.</p>
                     <div class="lb-container column">
                         <div class="grid-col">
-                            <div class="column span3"></div>
-                            <a class="column span6" href="<?php echo get_public_url('images/proj-gsap/bao-new.jpg'); ?>" data-lightbox="bao-deliverables" data-title="Revised version of the product" data-alt="Revised version of the Bao GSAP animation">
+                            <div class="column span4 span8-md span12-lg"></div>
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-gsap/bao-new.jpg'); ?>" data-lightbox="bao-deliverables" data-title="Revised version of the product" data-alt="Revised version of the Bao GSAP animation">
                                 <img src="<?php echo get_public_url('images/proj-gsap/bao-new.jpg'); ?>" alt="Revised version of the Bao GSAP animation">
                             </a>
-                            <div class="column span3"></div>
+                            <div class="column span4 span8-md span12-lg"></div>
                         </div>
                     </div>
                 </div>
