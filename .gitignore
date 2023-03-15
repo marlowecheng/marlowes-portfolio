@@ -1,14 +1,5 @@
-
-depreciated-styles
-depreciated-styles/old-main.scss
-node_modules
-/public/depreciated-styles
-/public/styles/main.min.css
-/public/styles/main.min.css.map
-/public/styles
-/public/css/main.min.css
-/public/css/main.min.css.map
-*.map
+node_module
 public/css/main.min.css
 public/css/main.min.css.map
 .DS_Store
+public/.DS_Store
