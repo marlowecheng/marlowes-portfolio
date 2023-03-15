@@ -11,3 +11,4 @@ node_modules
 *.map
 public/css/main.min.css
 public/css/main.min.css.map
+.DS_Store
