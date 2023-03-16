@@ -9,7 +9,7 @@
         <section class="intro">
             <div class="container">
                 <div class="grid-col">
-                    <h1 class="column intro-title">Hellowe, I'm Marlowe!!!!</h1>
+                    <h1 class="column intro-title">Hellowe, I'm Marlowe!</h1>
                     <div class="column intro-content">
                         <p>I am a New Media Design and Web Development student at BCIT. I am an aspiring front-end web developer and graphic designer, currently learning React.js and Tailwind.css. I love working with CSS, SCSS, HTML, and jQuery. I also enjoy working with Adobe Illustrator, Photoshop, and After Effects.</p>
                         <a href="<?php echo get_public_url('about.php'); ?>" class="btn">more marlowe fun facts</a>
