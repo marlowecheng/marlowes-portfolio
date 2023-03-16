@@ -4,7 +4,8 @@
   "description": "Note for Future Marlowe to understand what is actually going on so they don't have to spend days trying to decipher the spaghetti code written by Past Marlowe.",
   "main": "index.js",
   "scripts": {
-    "sass:watch": "node_modules/.bin/sass public/scss/main.scss:public/css/main.min.css --watch --style=compressed"
+    "sass:watch": "node_modules/.bin/sass public/scss/main.scss:public/css/main.min.css --watch --style=compressed",
+    "sass:build": "node_modules/.bin/sass public/scss/main.scss:public/css/main.min.css --style=compressed"
   },
   "author": "",
   "license": "ISC",
