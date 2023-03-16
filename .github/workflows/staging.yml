@@ -25,6 +25,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.marlowecheng.com
-        username: marloweconnects@marlowecheng.com
-        password: ${{ secrets.FTP_PASSWORD }}
+        username: stagingforportfolio@marlowecheng.com
+        password: ${{ secrets.FTP_STAGING_PASSWORD }}
         server-dir: staging.marlowecheng.com/
