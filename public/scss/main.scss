@@ -1,8 +1,8 @@
 @use "utilities/variables";
 
 // does not work for some reason
-// @use "base/reset";
-// @use "vendors/lightbox";
+@use "base/reset";
+@use "vendors/lightbox";
 
 @use "base/global";
 @use "base/typography";
