@@ -2,7 +2,7 @@
     <div class="container">
         <div class="grid-col">
             <div class="column">
-                <div class="footer-logo"><a href="index.php"><img src="images/marlowe-cheng-logo.svg" alt="logo"></a></div>
+                <div class="footer-logo"><a href="index.php"><img src="<?php echo get_public_url('images/marlowe-cheng-logo.svg'); ?>" alt="logo"></a></div>
                 <p>&copy; Marlowe Cheng 2022</p>
                 <div class="socials">
                     <a href="mailto:marlowe.cheng@gmail.com" target="_blank"><span><i class="fa-solid fa-envelope"></i></span></a>
