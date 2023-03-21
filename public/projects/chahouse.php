@@ -1,5 +1,5 @@
 <?php
-    require('init.php')
+    require('../init.php');
 ?><!DOCTYPE html>
 <html lang="en">
 <?php require(get_path('public/partials/head.php')); ?>
@@ -141,6 +141,6 @@
     </main>
     <?php require(get_path('public/partials/footer.php')); ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="scripts/lightbox.js"></script>
+    <script src="<?php echo get_public_url('scripts/lightbox.js'); ?>"></script>
 </body>
 </html>

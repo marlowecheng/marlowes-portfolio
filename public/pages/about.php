@@ -1,8 +1,12 @@
 <?php
-    require('init.php')
+    require('../init.php');
 ?><!DOCTYPE html>
 <html lang="en">
-<?php require(get_path('public/partials/head.php')); ?>
+<?php
+    $meta_title = $meta_title ?? 'About | Marlowe Cheng | Front-End Developer';
+    $meta_desc = $meta_desc ?? 'Marlowe\'s about me page which details their values, skills, and background.';
+
+    require(get_path('public/partials/head.php')); ?>
 <body>
     <?php require(get_path('public/partials/header.php')); ?>    
     <main>
@@ -15,7 +19,7 @@
                         <p>I am inspired by nature, drag, my cultural background, and the works of Studio Ghibli. I also enjoy the aesthetics of cyberpunk, cute anime, and early 2000s website and graphics.</p>
                         <p>Outside of school work, my designs tends to lean into the chaotic vibes that could be encapsulated with this quote: <i>“I was born with the gift of hands and I’m going to make it everyone else’s problem”</i>.</p>
                     </div>
-                    <img src="<?php echo get_public_url('images/about/marlowe-about.jpg'); ?>" alt="" class="column span4 span8-md span12-lg">
+                    <img src="<?php echo get_public_url('images/about/marlowe-about.jpg'); ?>" alt="Marlowe smiling with their hands framing their face" class="column span4 span8-md span12-lg">
                 </div>
             </div>
         </section>

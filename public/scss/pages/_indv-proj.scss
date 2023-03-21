@@ -27,6 +27,19 @@
             border-radius: 1rem;
         }
     }
+
+    div {
+        .links {
+            text-decoration: none;
+            color: vars.$colour-1;
+            transition: .25s ease-in-out;
+        }
+
+        .links:hover {
+            color: vars.$colour-4;
+            border-bottom: vars.$colour-1 solid .15rem;
+        }
+    }
 }
 
 .proj-process {

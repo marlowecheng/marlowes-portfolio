@@ -1,8 +1,12 @@
 <?php
-    require('init.php')
+    require('../init.php');
 ?><!DOCTYPE html>
 <html lang="en">
-<?php require(get_path('public/partials/head.php')); ?>
+<?php
+    $meta_title = $meta_title ?? 'GSAP Animation | Marlowe Cheng | Front-End Developer';
+    $meta_desc = $meta_desc ?? 'GSAP Animation ';
+
+    require(get_path('public/partials/head.php')); ?>
 <body>
     <?php require(get_path('public/partials/header.php')); ?>
     <main>
@@ -10,7 +14,7 @@
             <div class="container">
                 <div class="grid-col">
                     <div class="column proj-header">
-                        <img src="<?php echo get_public_url('images/proj-gsap/bao-mockup.jpg'); ?>" alt="gsap bao animation mockup">
+                        <img src="<?php echo get_public_url('images/proj-gsap/bao-mockup.jpg'); ?>" alt="GSAP bao animation mockup">
                         <h1>Bao GSAP Animation</h1>
                         <div class="proj-tags">
                             <p>Web Development</p>
@@ -19,6 +23,7 @@
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
                         <p>The goal of this project was to demonstrate my knowledge on the Javascript animation plugin: GreenSock Animation Platform or GSAP. I converted an Illustrator illustration with multiple layers into an SVG, took the code from the SVG file, added it to the HTML, and used GSAP to animate it. GSAP features used were Tween and Timeline.</p>
+                        <p>Project Result: <a href="https://bao-animation.marlowecheng.com" title="View the project result of the animation here!" target="_blank" class="links">Live Preview Here</a></p>
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Details</h3>
@@ -103,6 +108,6 @@
     </main>
     <?php require(get_path('public/partials/footer.php')); ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="scripts/lightbox.js"></script>
+    <script src="<?php echo get_public_url('scripts/lightbox.js'); ?>"></script>
 </body>
 </html>
