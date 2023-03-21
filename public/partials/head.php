@@ -10,7 +10,7 @@
     <meta name="description" content="<?php echo h($meta_desc); ?>">
     <meta name="keywords" content="web developer, vancouver, bc, canada, front-end developer, coding, html, scss, software development">
     <title><?php echo h($meta_title); ?></title>
-    <link rel="stylesheet" href="<?php echo get_public_url('css/main.min.css?v=1.1'); ?>">
+    <link rel="stylesheet" href="<?php echo get_public_url('css/main.min.css?v=1.4'); ?>">
     <link rel="icon" href="images/marlowe-cheng-favicon.png" type="image/png">
     <script src="https://kit.fontawesome.com/4082a6b417.js" crossorigin="anonymous"></script>
 </head>

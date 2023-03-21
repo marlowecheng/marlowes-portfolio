@@ -23,6 +23,7 @@
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
                         <p>The goal of this project was to demonstrate my knowledge on the Javascript animation plugin: GreenSock Animation Platform or GSAP. I converted an Illustrator illustration with multiple layers into an SVG, took the code from the SVG file, added it to the HTML, and used GSAP to animate it. GSAP features used were Tween and Timeline.</p>
+                        <p>Project Result: <a href="https://bao-animation.marlowecheng.com" title="View the project result of the animation here!" target="_blank" class="links">Live Preview Here</a></p>
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Details</h3>

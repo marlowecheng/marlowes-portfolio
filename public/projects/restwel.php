@@ -19,6 +19,7 @@
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
                         <p>The goal of this assignment was to create a logo, colour palette, and branding for a fictional or real company and make a stationary set that included a business card, envelope, and a letterhead. All of which was accomplished using Adobe InDesign 2022.</p>
+                        <p>Project Result: <a href="https://restwel.marlowecheng.com" title="View the banner here!" target="_blank" class="links">Live Preview Here</a></p>
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Details</h3>
@@ -77,7 +78,7 @@
             <div class="container">
                 <div class="grid-col">
                     <h2 class="column">Revisions</h2>
-                    <p class="column">Added breakpoints at 710px and 856px for responsiveness for horizontal mobile view. Cleaning up of redundant CSS code and deleted unused classes in the HTML. Replaced <link> tag for font with @import in the CSS document for best practice.</p>
+                    <p class="column">Added breakpoints at 710px and 856px for responsiveness for horizontal mobile view. Cleaning up of redundant CSS code and deleted unused classes in the HTML. Replaced link tag for font with @import in the CSS document for easier .</p>
                     <div class="lb-container final-poster column">
                         <div class="grid-col">
                             <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 710px breakpoint for horizontal mobile view" data-alt="Restwel banner with header, copy inside the banner">
