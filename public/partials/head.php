@@ -1,6 +1,6 @@
 <?php
     $meta_title = $meta_title ?? 'Marlowe Cheng | Front-End Developer';
-    $meta_desc = $meta_desc ?? 'Marlowe Cheng\'s portfolio showcases their web development and graphic design projects. Marlowe is a Front-End Web Developer based in Vancouver, BC.';
+    $meta_desc = $meta_desc ?? 'Marlowe\'s portfolio showcases their web development and graphic design projects. Marlowe is a Front-End Web Developer based in Vancouver, BC.';
     $meta_domain = $_SERVER['SERVER_NAME'];
     $meta_url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
     $meta_img = get_public_url('images/opengraph-img.png');
