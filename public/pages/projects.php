@@ -23,7 +23,8 @@
                                 <div class="proj-tags">
                                     <p>Graphic Design</p>
                                 </div>
-                                <p>School project from the course: Illustration for New Media. The project purpose was to create a poster ad for a fictional beverage company using Adobe Illustrator 2022.</p>
+                                <p>School project from the course: Illustration for New Media. An advertisement poster for a fictional beverage company made in Adobe Illustrator.</p>
+                                <a href="<?php echo get_public_url('projects/chahouse.php'); ?>" class="btn-secondary">View Project</a>
                             </div>
                         </div>
                         <div class="column proj-card grid-col">
@@ -33,7 +34,8 @@
                                 <div class="proj-tags">
                                     <p>Graphic Design</p>
                                 </div>
-                                <p>School project from the course: DigiLayouts & Interactive Media. The purpose of this project was to make a stationery set for any company. Honningbrew Meadery is a fictional meadery from the video game, Elder Scrolls V: Skyrim.</p>
+                                <p>School project from the course: DigiLayouts & Interactive Media. A stationery set&mdash;letter paper, envelope, business card&mdash;made using Adobe InDesign for a fictional brewery named Honningbrew Meadery.</p>
+                                <a href="<?php echo get_public_url('projects/honningbrew.php'); ?>" class="btn-secondary">View Project</a>
                             </div>
                         </div>
                         <div class="column proj-card grid-col">
@@ -43,7 +45,8 @@
                                 <div class="proj-tags">
                                     <p>Web Development</p>
                                 </div>
-                                <p>School project from the course: Animation for New Media. GSAP - Green Sock was used to animate an SVG obtained from Adobe Stock. </p>
+                                <p>School project from the course: Animation for New Media. GSAP - Green Sock was used to animate an SVG obtained from Adobe Stock.</p>
+                                <a href="<?php echo get_public_url('projects/bao-gsap.php'); ?>" class="btn-secondary">View Project</a>
                             </div>
                         </div>
                         <div class="column proj-card grid-col">
@@ -54,6 +57,7 @@
                                     <p>Web Development</p>
                                 </div>
                                 <p>School project from the course: Mobile Web. A responsive hero banner with copy and a call-to-action was made using the @media tool in CSS.</p>
+                                <a href="<?php echo get_public_url('projects/restwel.php'); ?>" class="btn-secondary">View Project</a>
                             </div>
                         </div>
                     </div>
