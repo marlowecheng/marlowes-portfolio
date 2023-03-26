@@ -2,7 +2,11 @@
     require('../init.php');
 ?><!DOCTYPE html>
 <html lang="en">
-<?php require(get_path('public/partials/head.php')); ?>
+<?php
+    $meta_title = $meta_title ?? 'Cha House Kombucha | Marlowe Cheng | Front-End Developer';
+    $meta_desc = $meta_desc ?? 'An advertising poster for a fictional Kombucha company that specializes in Chinese Teas. This poster was made using Adobe Illustrator\'s 3D tools.';
+
+    require(get_path('public/partials/head.php')); ?>
 <body>
     <?php require(get_path('public/partials/header.php')); ?>
     <main>
@@ -13,7 +17,7 @@
                         <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-mockup-poster1.jpg'); ?>" alt="poster of cha house kombucha mocked up">
                         <h1>Cha House Kombucha</h1>
                         <div class="proj-tags">
-                            <p>Graphic Design</p>
+                           <p>Graphic Design</p>
                         </div>
                     </div>
                     <div class="column span4 span8-md span12-lg">
