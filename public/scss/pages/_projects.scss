@@ -8,11 +8,7 @@
     }
 
     .proj-card{ 
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: flex-start;
         margin-bottom: 8rem;
-        // flex-direction: column;
 
         h3 a {
             transition: .25s ease-in-out;
@@ -30,7 +26,7 @@
         }
 
         > a:hover {
-            transform: scale(103%);
+            transform: scale(1.03);
         }
 
         img {
