@@ -4,7 +4,11 @@
 <html lang="en">
 <?php require(get_path('public/partials/head.php')); ?>
 <body>
-    <?php require(get_path('public/partials/header.php')); ?>
+    <?php 
+        $meta_title = $meta_title ?? 'Restwel | Marlowe Cheng | Front-End Developer';
+        $meta_desc = $meta_desc ?? 'A responsive banner for a fictional mattress company created with CSS and HTML. The banner features an image, copy, and a call-to-action button.';
+
+        require(get_path('public/partials/header.php')); ?>
     <main>
         <section class="proj-intro">
             <div class="container">
@@ -18,7 +22,7 @@
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
-                        <p>The goal of this assignment was to create a logo, colour palette, and branding for a fictional or real company and make a stationary set that included a business card, envelope, and a letterhead. All of which was accomplished using Adobe InDesign 2022.</p>
+                        <p>The purpose of this assignment was to create a responsive banner with a call to action for a fictional company. The goal of this assignment was to demonstrate our understanding of CSS @media.</p>
                         <p>Project Result: <a href="https://restwel.marlowecheng.com" title="View the banner here!" target="_blank" class="links">Live Preview Here</a></p>
                     </div>
                     <div class="column span4 span8-md span12-lg">
@@ -26,7 +30,7 @@
                         <ul class="bulleted">
                             <li>Role &mdash; Web Developer</li>
                             <li>Software &mdash; VS Code </li>
-                            <li>Total Time &mdash; 5 hours 15 minutes</li>
+                            <li>Total Time &mdash; 3 hours 15 minutes</li>
                         </ul>
                     </div>
                 </div>

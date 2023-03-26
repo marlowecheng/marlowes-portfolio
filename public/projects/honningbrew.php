@@ -2,7 +2,10 @@
     require('../init.php');
 ?><!DOCTYPE html>
 <html lang="en">
-<?php require(get_path('public/partials/head.php')); ?>
+<?php 
+    $meta_title = $meta_title ?? 'Honningbrew Meadery | Marlowe Cheng | Front-End Developer';
+    $meta_desc = $meta_desc ?? 'A stationery set for the fictional brewing company, Honningbrew Meadery. This was made in Adobe InDesign and Adobe Illustrator.';
+    require(get_path('public/partials/head.php')); ?>
 <body>
     <?php require(get_path('public/partials/header.php')); ?>
     <main>
@@ -114,7 +117,6 @@
     </main>
     <?php require(get_path('public/partials/footer.php')); ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="scripts/lightbox.js"></script>
-    <script src="<?php echo get_public_url('scripts/scripts.js'); ?>"></script>
+    <script src="<?php echo get_public_url('scripts/lightbox.js'); ?>"></script>
 </body>
 </html>

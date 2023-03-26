@@ -3,8 +3,8 @@
 ?><!DOCTYPE html>
 <html lang="en">
 <?php
-    $meta_title = $meta_title ?? 'GSAP Animation | Marlowe Cheng | Front-End Developer';
-    $meta_desc = $meta_desc ?? 'GSAP Animation ';
+    $meta_title = $meta_title ?? 'Bao GSAP Animation | Marlowe Cheng | Front-End Developer';
+    $meta_desc = $meta_desc ?? 'Animating SVG of a bao illustration using GSAP with control buttons.';
 
     require(get_path('public/partials/head.php')); ?>
 <body>
