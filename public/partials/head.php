@@ -27,6 +27,6 @@
     <meta name="twitter:image" content="<?php echo h($meta_img); ?>">  
     <title><?php echo h($meta_title); ?></title>
     <link rel="stylesheet" href="<?php echo get_public_url('css/main.min.css?v=1.5'); ?>">
-    <link rel="icon" href="images/marlowe-cheng-favicon.png" type="image/png">
+    <link rel="icon" href="<?php echo get_public_url('images/marlowe-cheng-favicon.png'); ?>" type="image/png">
     <script src="https://kit.fontawesome.com/4082a6b417.js" crossorigin="anonymous"></script>
 </head>
