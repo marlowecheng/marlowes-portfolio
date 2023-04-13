@@ -6,19 +6,21 @@
 <body>
     <?php require(get_path('public/partials/header.php')); ?>
     <main>
-        <section class="intro">
+        <section class="intro no-margin-btm no-padding-btm">
             <div class="container">
                 <div class="grid-col">
                     <h1 class="column intro-title">Hellowe, I'm Marlowe!</h1>
+                    <p class="column subtitle">Let's build unconventional websites together.</p>
                     <div class="column intro-content">
-                        <p>I am a New Media Design and Web Development student at BCIT. I am an aspiring front-end web developer and graphic designer, currently learning React.js and Tailwind.css. I love working with CSS, SCSS, HTML, and jQuery. I also enjoy working with Adobe Illustrator, Photoshop, and After Effects.</p>
-                        <a href="<?php echo get_public_url('pages/about.php'); ?>" class="btn">more marlowe fun facts</a>
+                        <p>Do you enjoy websites from the early 2000s and chaos? I am a front-end web developer with a vision to help you create the website of your <s>memes</s> dreams.</p>
+                        <p class="css-crime">Have I mentioned that <b>CSS is my passion</b>?</p>
+                        <a href="<?php echo get_public_url('pages/projects.php'); ?>" class="btn">check out my projects</a>
                     </div>
-                    <div class="img-container column span4 span8-md span12-lg"><img src="<?php echo get_public_url('images/marlowe/marlowe-sqoosh.png'); ?>" alt="Marlowe's head squished between the fingers of a hand-shaped chair" class=""></div>
+                    <div class="img-container column span4 span8-md span12-lg css-crime"><img src="<?php echo get_public_url('images/marlowe/marlowe-sqoosh.png'); ?>" alt="Marlowe's head squished between the fingers of a hand-shaped chair" class=""></div>
                 </div>
             </div>
         </section>
-        <section class="showcase section-bg">
+        <section class="showcase section-bg no-margin-top">
             <div class="container">
                 <div class="grid-col">
                     <h2 class="column">Project Showcases</h2>
