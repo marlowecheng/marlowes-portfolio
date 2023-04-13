@@ -5,8 +5,8 @@
 <?php require(get_path('public/partials/head.php')); ?>
 <body>
     <?php 
-        $meta_title = $meta_title ?? 'Restwel | Marlowe Cheng | Front-End Developer';
-        $meta_desc = $meta_desc ?? 'A responsive banner for a fictional mattress company created with CSS and HTML. The banner features an image, copy, and a call-to-action button.';
+        $meta_title = $meta_title ?? 'Keysmash Generator | Marlowe Cheng | Front-End Developer';
+        $meta_desc = $meta_desc ?? 'A keysmash generator with a click-to-copy function. This generates a random string of 8 to 25 letters from \'a\' to \'l\' on the keyboard. ';
 
         require(get_path('public/partials/header.php')); ?>
     <main>
