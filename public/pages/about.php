@@ -100,20 +100,12 @@
                 </div>
             </div>
         </section>
-        <section class="mission section-bg">
-            <div class="container">
-                <div class="grid-col">
-                    <h2 class="column">Mission</h2>
-                    <p class="column">Bringing my skills back into my community and giving back via support and advocacy.</p>
-                </div>
-            </div>
-        </section>
-        <section class="goals">
+        <!-- <section class="goals">
             <div class="container">
                 <div class="grid-col">
                     <h2 class="column">Goals</h2>
                     <div class="grid-col card column">
-                        <img src="<?php echo get_public_url('images/about/short.svg'); ?>" alt="frog horizontally condensed" class="column span4 span8-md span12-lg">
+                        <img src="<?php // echo get_public_url('images/about/short.svg'); ?>" alt="frog horizontally condensed" class="column span4 span8-md span12-lg">
                         <div class="column span4 span8-md span12-lg">
                             <h3>Short Term</h3>
                             <ul class="bulleted">
@@ -123,7 +115,7 @@
                         </div>
                     </div>
                     <div class="grid-col card column">
-                        <img src="<?php echo get_public_url('images/about/long.svg'); ?>" alt="frog horizontally expanded" class="column span4 span8-md span12-lg">
+                        <img src="<?php // echo get_public_url('images/about/long.svg'); ?>" alt="frog horizontally expanded" class="column span4 span8-md span12-lg">
                         <div class="column span4 span8-md span12-lg">
                             <h3>Long Term</h3>
                             <ul class="bulleted">
@@ -134,7 +126,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <?php require(get_path('public/partials/contact.php')) ?>
     </main>
     <?php require(get_path('public/partials/footer.php')) ?>
