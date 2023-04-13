@@ -50,6 +50,11 @@ header .column {
 @media screen and (min-width: 1024px) {
     header .column {
         flex-direction: row;
+        height: 12rem;
+
+        .header-logo {
+            width: 10rem;
+        }
     }
 }
 /*------- DESKTOPS--------*/
