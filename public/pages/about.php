@@ -23,7 +23,15 @@
                 </div>
             </div>
         </section>
-        <section class="skills">
+        <section class="mission section-bg">
+            <div class="container">
+                <div class="grid-col">
+                    <h2 class="column">Mission</h2>
+                    <p class="column">Bringing my skills back into my community and giving back via support and advocacy.</p>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="skills">
             <div class="container">
                 <div class="grid-col">
                     <div class="skill-card column span4 span8-md span12-lg">
@@ -56,7 +64,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="values">
             <div class="container">
                 <div class="grid-col">
