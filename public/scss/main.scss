@@ -1,4 +1,6 @@
 @use "utilities/variables";
+@use "utilities/animations";
+@use "utilities/utilities";
 
 @use "base/reset";
 @use "vendors/lightbox";
@@ -18,5 +20,6 @@
 @use "pages/about";
 @use "pages/projects";
 @use "pages/indv-proj";
+
 
 
