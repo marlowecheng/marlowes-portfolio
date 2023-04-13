@@ -28,6 +28,17 @@
                             </div>
                         </div>
                         <div class="column proj-card grid-col">
+                            <a href="<?php echo get_public_url('projects/forward.php'); ?>" class="column span4 span8-md span12-lg"><img src="<?php echo get_public_url('images/proj-forward/forward-mockup.jpg'); ?>" alt="Laptop with a mocked-up website on the screen"></a>
+                            <div class="card-content column span4 span8-md span12-lg">
+                                <h3><a href="<?php echo get_public_url('projects/forward.php'); ?>">Forward</a></h3>
+                                <div class="proj-tags">
+                                    <p>Web Development</p>
+                                </div>
+                                <p>First place winner of <a href="https://hack-the-break-2023.devpost.com/" target="_blank" title="View Hack the Break 2023 DevPost Page">BCIT's Hack the Break 2023</a> hackathon. Forward is a mentorship platform that connects local mentors, mentees, and peers within the tech industry. </p>
+                                <a href="<?php echo get_public_url('projects/forward.php'); ?>" class="btn-secondary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="column proj-card grid-col">
                             <a href="<?php echo get_public_url('projects/bao-gsap.php'); ?>" class="column span4 span8-md span12-lg"><img src="<?php echo get_public_url('images/proj-gsap/bao-mockup.jpg'); ?>" alt="Mockup of the Bao GSAP web page on a laptop"></a>
                             <div class="card-content column span4 span8-md span12-lg">
                                 <h3><a href="<?php echo get_public_url('projects/bao-gsap.php'); ?>">Bao GSAP Animation</a></h3>

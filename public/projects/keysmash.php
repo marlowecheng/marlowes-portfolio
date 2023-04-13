@@ -25,7 +25,7 @@
                         <p>Keysmash Generator generates a random number of characters using keys from ‘a’ to ‘l’ on the keyboard.</p>
                         <div class="proj-links">
                             <a href="https://github.com/marlowecheng/keysmash-generator" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
-                            <a href="https://keysmash.marlowecheng.com" title="View the banner here!" target="_blank" class="btn">Live Preview</a>
+                            <a href="https://keysmash.marlowecheng.com" title="View the keysmash generator here!" target="_blank" class="btn">Live Preview</a>
                         </div>
                     </div>
                     <div class="column span4 span8-md span12-lg">
@@ -96,7 +96,7 @@
                     <p class="column">Check out the keysmash generator and its GitHub repository!</p>
                     <div class="proj-links column">
                         <a href="https://github.com/marlowecheng/keysmash-generator" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
-                        <a href="https://keysmash.marlowecheng.com" title="View the banner here!" target="_blank" class="btn">Live Preview</a>
+                        <a href="https://keysmash.marlowecheng.com" title="View the keysmash generator here!" target="_blank" class="btn">Live Preview</a>
                     </div>
                 </div>
             </div>

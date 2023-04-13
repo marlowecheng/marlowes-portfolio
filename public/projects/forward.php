@@ -2,48 +2,55 @@
     require('../init.php');
 ?><!DOCTYPE html>
 <html lang="en">
-<?php require(get_path('public/partials/head.php')); ?>
+<?php 
+    $meta_title = $meta_title ?? 'Forward | Marlowe Cheng | Front-End Developer';
+    $meta_desc ?? 'First place winner of BCIT\'s Hack the Break 2023 hackathon. Forward is a mentorship platform that connects local mentors, mentees, and peers within the tech industry.';
+
+     require(get_path('public/partials/head.php')); ?>
 <body>
     <?php 
-        $meta_title = $meta_title ?? 'Restwel | Marlowe Cheng | Front-End Developer';
-        $meta_desc = $meta_desc ?? 'A responsive banner for a fictional mattress company created with CSS and HTML. The banner features an image, copy, and a call-to-action button.';
-
         require(get_path('public/partials/header.php')); ?>
     <main>
         <section class="proj-intro">
             <div class="container">
                 <div class="grid-col">
                     <div class="column proj-header">
-                        <img src="<?php echo get_public_url('images/proj-restwel/restwel-mockup.jpg'); ?>" alt="Restwel banner mocked-up on a macbook">
-                        <h1>Restwel Responsive Banner</h1>
+                        <h1>Forward - A Mentorship Platform</h1>
                         <div class="proj-tags">
                             <p>Web Development</p>
                         </div>
+                        <img src="<?php echo get_public_url('images/proj-forward/forward-mockup.jpg'); ?>" alt="Laptop with a website">
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
-                        <p>The purpose of this assignment was to create a responsive banner with a call to action for a fictional company. The goal of this assignment was to demonstrate our understanding of CSS @media.</p>
-                        <p>Project Result: <a href="https://restwel.marlowecheng.com" title="View the banner here!" target="_blank" class="links">Live Preview Here</a></p>
+                        <p>Forward is a platform that helps local tech industry professionals and new-comers build communities and connections with each other.</p>
+                        <div class="proj-links">
+                            <a href="hhttps://github.com/Syransong/hackathon-2023" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
+                            <a href="https://forward.marlowecheng.com" title="View the keysmash generator here!" target="_blank" class="btn">Live Preview</a>
+                        </div>
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Details</h3>
                         <ul class="bulleted">
-                            <li>Role &mdash; Web Developer</li>
-                            <li>Software &mdash; VS Code </li>
-                            <li>Total Time &mdash; 3 hours 15 minutes</li>
+                            <li>Tech Stack &mdash; HTML5, SCSS, PHP</li>
+                            <li>Total Time &mdash; 18 hours</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="proj-process">
+        <section class="proj-process prob-solution">
             <div class="container">
                 <div class="grid-col">
-                    <div class="column">
-                        <h2>Brainstorming</h2>
-                        <p>Beginning of brainstorming for the banner content; the company name, colour scheme, and background image was chosen along with the completion of copy. The company, Restwel, is a memory foam mattress company whose target audience are millennials; thus, the copy is a bit cheeky: “Restwel memory foam mattress gives you a full night's sleep. No more waking up tired so you can save some money on caffeine”.</p>
-                        <p>The colour scheme chosen was monochromatic with various shades of grey. As it’s a mid-end mattress company, monochromatic colour scheme would give the company a classier and more elegant feeling. The various shades of grey would also give feelings of simplicity and purity, as to not overwhelm an average customer.</p>
-                        <p>The thumbnail sketches included 3 different viewport widths, all of which had rough measurements of a phone, tablet, and computer monitor ratios. The banner layout was revised through different iterations, playing with elements being either inside or outside of the banner image depending on the viewport width.</p>
+                    <div class="column span12-lg">
+                        <h2>Problem</h2>
+                        <p>The hackathon theme was 'job security'. Searching for jobs is hard, especially as a newcomer to the industry. There's fear, isolation, anxiety, financial stress, and overwhelm when job applications aren't answered.</p>
+                        <p>The industry is saturated, and imposter syndrome makes it hard for folks to take the next step.</p>
+                    </div>
+                    <div class="column span12-lg">
+                        <h2>Solution</h2>
+                        <p>Let's tackle that isolation and fear when searching for a job with a mentors. Mentorship bridges the gap between seasoned industry professionals and newcomers by creating a bond and feelings of solidarity.</p>
+                        <p>A mentorship platform that is specifically local to Vancouver will allow mentors, mentees, and peers to connect on a deeper level, as everyone is local.</p>
                     </div>
                 </div>
             </div>
@@ -51,45 +58,46 @@
         <section class="proj-process">
             <div class="container">
                 <div class="grid-col">
-                    <h2 class="column">Base HTML & CSS</h2>
-                    <p class="column">The HTML was written with the CSS and a mobile-first approach in mind. Thinking about the content that would go into the banner, divs were used to separate content that would have its own CSS properties such as positioning, size, height, and alignment. A reset CSS was obtained from the internet so the final product would look consistent throughout different browsers, as different browsers have their own CSS preferences and look.</p>
-                </div>
-            </div>
-        </section>
-       <section class="proj-process">
-            <div class="container">
-                <div class="grid-col">
-                    <h2 class="column">Responsiveness with @media</h2>
-                    <p class="column">The @media was written for each breakpoint: 414px, 576px, 768px, 992px, 1200px. For viewport sizes that are less than 575px in width, the banner image would only contain the header with the copy and the button are underneath it. For viewport sizes 991px and below, everything is center-justified with the header and copy inside the banner image and the button still outside the banner. Viewport width 992px and above has the content left-justified with the header, copy and button inside the banner image, font-size is also increased. At viewport width 1200px, the font-size is increased and the banner image height is also increased.</p>
-                    <div class="lb-container column">
-                        <div class="grid-col">
-                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-414px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 414px breakpoint" data-alt="Restwel banner with copy and button below the banner">
-                                <img src="<?php echo get_public_url('images/proj-restwel/restwel-414px.jpg'); ?>" alt="Restwel banner with copy and button below the banner">
-                            </a>
-                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-576px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 576px breakpoint" data-alt="Restwel banner with button below the banner">
-                                <img src="<?php echo get_public_url('images/proj-restwel/restwel-576px.jpg'); ?>" alt="Restwel banner with button below the banner">
-                            </a>
-                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-1200px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 1200px breakpoint" data-alt="Restwel banner with header, copy and button inside the banner">
-                                <img src="<?php echo get_public_url('images/proj-restwel/restwel-1200px.jpg'); ?>" alt="Restwel banner with header, copy and button inside the banner">
-                            </a>
-                            
-                        </div>
-                    </div>
+                    <h2 class="column">The Team</h2>
+                    <p class="column">The team consist of all first-time hackers in our 4th term of BCIT's New Media program.</p>
+                    <ul class="column bulleted">
+                        <li>Rikki Soriano - full stack developer & graphic design</li>
+                        <li>Kayla Tran - UI/UX designer</li>
+                        <li>Karina Song - full stack developer & copywriting</li>
+                        <li>Dave Koo - full stack developer & project documentation</li>
+                        <li>Marlowe Cheng - front end developer & copywriting</li>
+                    </ul>
                 </div>
             </div>
        </section>
        <section class="proj-process">
             <div class="container">
                 <div class="grid-col">
-                    <h2 class="column">Revisions</h2>
-                    <p class="column">Added breakpoints at 710px and 856px for responsiveness for horizontal mobile view. Cleaning up of redundant CSS code and deleted unused classes in the HTML. Replaced link tag for font with @import in the CSS document for easier .</p>
-                    <div class="lb-container final-poster column">
+                    <h2 class="column">Process</h2>
+                    <p class="column">Karina and I started out with creating all the base files and folders that would hold partials, pages, styles, and scripts. I organized the sass folder and broke it down into different folders that would hold several partials for styles.</p>
+                    <div class="lb-container lb-1-col column">
                         <div class="grid-col">
-                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" data-lightbox="restwel-gallery" data-title="Restwel Banner 710px breakpoint for horizontal mobile view" data-alt="Restwel banner with header, copy inside the banner">
-                                <img src="<?php echo get_public_url('images/proj-restwel/restwel-710px.jpg'); ?>" alt="Restwel banner with header, copy inside the banner">
+                            <a class="column span4 span8-md span12-lg" href="<?php echo get_public_url('images/proj-forward/sass-setup.png'); ?>" data-lightbox="forward-gallery" data-title="sass folder structure" data-alt="SCSS code in VS Code">
+                                <img src="<?php echo get_public_url('images/proj-forward/sass-setup.png'); ?>" alt="SCSS code in VS Code">
                             </a>
                         </div>
                     </div>
+                    <p class="column">For me, the next 24-hours consisted of writing the HTML5 and SCSS based on wireframes and mockups; cleaning up my own code so others could work on them; and creating components that could be reused.</p>
+                </div>
+            </div>
+       </section>
+       <section class="proj-process">
+            <div class="container">
+                <div class="grid-col">
+                    <h2 class="column">Reflections</h2>
+                    <p class="column">This was such a great opportunity to learn and grow even though there was a huge time-crunch. The team really bonded, and we all got to experience working within a development team.</p>
+                    <p class="column">Everyone communicated and took initiative for each part of the project. Within 24 hours, we've only had 2 or 3 merge conflicts in git, which was amazing.</p>
+                    <p class="column">Check out Forward, its GitHub repository, and the project showcase video!</p>
+                    <div class="proj-links column justify-c">
+                        <a href="hhttps://github.com/Syransong/hackathon-2023" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
+                        <a href="https://forward.marlowecheng.com" title="View the keysmash generator here!" target="_blank" class="btn">Live Preview</a>
+                    </div>
+                    <div class="yt-container column lb-1-col"><iframe src="https://www.youtube.com/embed/BtKzdFMZmG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                 </div>
             </div>
        </section>
