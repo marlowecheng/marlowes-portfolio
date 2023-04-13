@@ -41,8 +41,14 @@ figcaption {
     font-size: 1rem;
 }
 
-* > p:not(:last-child) {
+p:not(:last-child) {
     margin-bottom: 1.5rem;
+}
+
+p.subtitle {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: vars.$colour-1;
 }
 
 b, strong {
@@ -77,7 +83,7 @@ figcaption {
     }
     
     h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     p, li, .btn {
@@ -87,6 +93,9 @@ figcaption {
 /*------- LAPTOPS --------*/
 @media screen and (min-width: 1024px) {
 
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 1.5rem;
+    }
     
 }
 /*------- DESKTOPS--------*/
