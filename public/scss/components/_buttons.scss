@@ -42,6 +42,26 @@
     background: vars.$colour-4;
 }
 
+.proj-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .github-icon {
+        span {
+          font-size: 5rem;
+          color: vars.$colour-1;
+          transition: .25s ease-in-out;
+        }
+
+        span:hover {
+          font-size: 5rem;
+          color: vars.$colour-4;
+          transition: .25s ease-in-out;
+        }
+    }
+}
+
 /*----------------------
     Responsiveness
 -----------------------*/

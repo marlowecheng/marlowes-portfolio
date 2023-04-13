@@ -15,6 +15,7 @@
 
         .proj-tags {
             display: flex;
+            margin-bottom: 2.5rem;
         }
 
         p {
@@ -25,19 +26,6 @@
             color: vars.$colour-1;
             border: vars.$colour-1 .15rem solid;
             border-radius: 1rem;
-        }
-    }
-
-    div {
-        .links {
-            text-decoration: none;
-            color: vars.$colour-1;
-            transition: .25s ease-in-out;
-        }
-
-        .links:hover {
-            color: vars.$colour-4;
-            border-bottom: vars.$colour-1 solid .15rem;
         }
     }
 }
@@ -141,6 +129,11 @@
         .grid-col > :not(.proj-header) {
             grid-column: span 6;
         }
+
+        img {
+            height: 65rem;
+            object-fit: cover;
+        }
     }
 
     .proj-process {
@@ -150,10 +143,22 @@
             }
         }
 
+        .lb-container.lb-1-col {
+            a.column.span12-lg { 
+                grid-column: 3 / span 8;
+            }
+        }
+
         .lb-container.final-poster {
             a.column.span12-lg {
                 grid-column: 3 / span 8;
             }
+        }
+    }
+
+    .prob-solution {
+        div.column.span12-lg {
+            grid-column: auto / span 6;
         }
     }
 }

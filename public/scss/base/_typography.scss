@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 h4 {
@@ -63,6 +63,17 @@ figcaption {
     font-weight: 200;
     text-align: center;
     padding: 1rem;
+}
+
+a {
+    color: vars.$colour-1;
+    transition: .25s ease-in-out;
+    border: none;
+}
+
+a:hover {
+    color: vars.$colour-4;
+    transition: .25s ease-in-out;
 }
 
 /*----------------------
