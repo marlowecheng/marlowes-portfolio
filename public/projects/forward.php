@@ -49,7 +49,7 @@
                     </div>
                     <div class="column span12-lg">
                         <h2>Solution</h2>
-                        <p>Let's tackle that isolation and fear when searching for a job with a mentors. Mentorship bridges the gap between seasoned industry professionals and newcomers by creating a bond and feelings of solidarity.</p>
+                        <p>Let's tackle that isolation and fear when searching for a job with mentors. Mentorship bridges the gap between seasoned industry professionals and newcomers by creating a bond and feelings of solidarity.</p>
                         <p>A mentorship platform that is specifically local to Vancouver will allow mentors, mentees, and peers to connect on a deeper level, as everyone is local.</p>
                     </div>
                 </div>

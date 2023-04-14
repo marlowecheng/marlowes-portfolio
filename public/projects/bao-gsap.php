@@ -14,11 +14,11 @@
             <div class="container">
                 <div class="grid-col">
                     <div class="column proj-header">
-                        <img src="<?php echo get_public_url('images/proj-gsap/bao-mockup.jpg'); ?>" alt="GSAP bao animation mockup">
                         <h1>Bao GSAP Animation</h1>
                         <div class="proj-tags">
                             <p>Web Development</p>
                         </div>
+                        <img src="<?php echo get_public_url('images/proj-gsap/bao-mockup.jpg'); ?>" alt="GSAP bao animation mockup">
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>

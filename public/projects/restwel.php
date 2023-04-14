@@ -14,11 +14,11 @@
             <div class="container">
                 <div class="grid-col">
                     <div class="column proj-header">
-                        <img src="<?php echo get_public_url('images/proj-restwel/restwel-mockup.jpg'); ?>" alt="Restwel banner mocked-up on a macbook">
                         <h1>Restwel Responsive Banner</h1>
                         <div class="proj-tags">
                             <p>Web Development</p>
                         </div>
+                        <img src="<?php echo get_public_url('images/proj-restwel/restwel-mockup.jpg'); ?>" alt="Restwel banner mocked-up on a macbook">
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>

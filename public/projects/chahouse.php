@@ -14,11 +14,11 @@
             <div class="container">
                 <div class="grid-col">
                     <div class="column proj-header">
-                        <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-mockup-poster1.jpg'); ?>" alt="poster of cha house kombucha mocked up">
                         <h1>Cha House Kombucha</h1>
                         <div class="proj-tags">
                            <p>Graphic Design</p>
                         </div>
+                        <img src="<?php echo get_public_url('images/proj-chahouse/chahouse-mockup-poster1.jpg'); ?>" alt="poster of cha house kombucha mocked up">
                     </div>
                     <div class="column span4 span8-md span12-lg">
                         <h3>Purpose</h3>
