@@ -25,7 +25,7 @@
                         <h3>Purpose</h3>
                         <p>Forward is a platform that helps local tech industry professionals and new-comers build communities and connections with each other.</p>
                         <div class="proj-links">
-                            <a href="hhttps://github.com/Syransong/hackathon-2023" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
+                            <a href="https://github.com/Syransong/hackathon-2023" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
                             <a href="https://forward.marlowecheng.com" title="View the keysmash generator here!" target="_blank" class="btn">Live Preview</a>
                         </div>
                     </div>
