@@ -25,12 +25,12 @@
                 <div class="grid-col">
                     <h2 class="column">Project Showcases</h2>
                     <div class="card column span4 span8-md span12-lg">
-                        <a href="<?php echo get_public_url('projects/bao-gsap.php'); ?>"><img src="<?php echo get_public_url('images/proj-gsap/bao-mockup.jpg'); ?>" alt="GSAP bao animation mocked-up on a macbook"></a>
-                        <p>Bao GSAP Animation</p>
+                        <a href="<?php echo get_public_url('projects/forward.php'); ?>"><img src="<?php echo get_public_url('images/proj-forward/forward-mockup.jpg'); ?>" alt="Forward website mocked up on a computer"></a>
+                        <p>Forward: a mentorship platform</p>
                     </div>
                     <div class="card column span4 span8-md span12-lg">
-                        <a href="<?php echo get_public_url('projects/chahouse.php'); ?>"><img src="<?php echo get_public_url('images/proj-chahouse/chahouse-mockup-poster1.jpg'); ?>" alt="Cha House Kombucha poster ad mocked-up on a wall"></a>
-                        <p>Cha House Kombucha Advertisement Poster</p>
+                        <a href="<?php echo get_public_url('projects/chahouse.php'); ?>"><img src="<?php echo get_public_url('images/proj-keysmash/keysmash-mockup.jpg'); ?>" alt="Keysmash generator mocked up on a computer"></a>
+                        <p>Keysmash Generator</p>
                     </div>
                 </div>
             </div>
