@@ -26,7 +26,7 @@
                     <h2 class="column">Project Showcases</h2>
                     <div class="card column span4 span8-md span12-lg">
                         <a href="<?php echo get_public_url('projects/forward.php'); ?>"><img src="<?php echo get_public_url('images/proj-forward/forward-mockup.jpg'); ?>" alt="Forward website mocked up on a computer"></a>
-                        <p>Forward: a mentorship platform</p>
+                        <p>Forward - A Mentorship Platform</p>
                     </div>
                     <div class="card column span4 span8-md span12-lg">
                         <a href="<?php echo get_public_url('projects/chahouse.php'); ?>"><img src="<?php echo get_public_url('images/proj-keysmash/keysmash-mockup.jpg'); ?>" alt="Keysmash generator mocked up on a computer"></a>
