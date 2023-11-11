@@ -94,7 +94,7 @@
                     <p class="column">Everyone communicated and took initiative for each part of the project. Within 24 hours, we've only had 2 or 3 merge conflicts in git, which was amazing.</p>
                     <p class="column">Check out Forward, its GitHub repository, and the project showcase video!</p>
                     <div class="proj-links column justify-c">
-                        <a href="hhttps://github.com/Syransong/hackathon-2023" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
+                        <a href="https://github.com/Syransong/hackathon-2023" target="_blank" title="view keysmash on GitHub" class=" github-icon"><span><i class="fa-brands fa-github"></i></span></a>
                         <a href="https://forward.marlowecheng.com" title="View the keysmash generator here!" target="_blank" class="btn">Live Preview</a>
                     </div>
                     <div class="yt-container column lb-1-col"><iframe src="https://www.youtube.com/embed/BtKzdFMZmG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
