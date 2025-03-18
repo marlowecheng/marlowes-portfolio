@@ -10,7 +10,6 @@
                     <a href="mailto:contact@marlowecheng.com" title="Email Marlowe" target="_blank"><span><i class="fa-solid fa-envelope"></i></span></a>
                     <a href="https://www.linkedin.com/in/marlowe-cheng/" title="Go to Marlowe's LinkedIn Profile" target="_blank"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
                     <a href="https://github.com/marlowecheng" target="_blank" title="View Marlowe's GitHub"><span><i class="fa-brands fa-github"></i></span></a>
-                    <a href="https://www.discordapp.com/users/138401488274718721" title="Add Marlowe on Discord (Only works on Discord Web Version)" target="_blank"><span><i class="fa-brands fa-discord"></i></span></a>
                 </div>
             </div>
         </div>
