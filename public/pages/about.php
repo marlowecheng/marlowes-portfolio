@@ -15,7 +15,7 @@
                 <div class="grid-col">
                     <h1 class="column">About me, Marlowe!</h1>
                     <div class="about-content column span4 span8-md span12-lg">
-                        <p>Hi, I’m Marlowe (they/them) an aspiring web developer and graphic designer currently attending BCIT.</p>
+                        <p>Hi, I’m Marlowe (they/them) an aspiring web developer with some UI/UX background!.</p>
                         <p>I am inspired by nature, drag, my cultural background, and the works of Studio Ghibli. I also enjoy the aesthetics of cyberpunk, cute anime, and early 2000s website and graphics.</p>
                         <p>Outside of school work, my designs tends to lean into the chaotic vibes that could be encapsulated with this quote: <i>“I was born with the gift of hands and I’m going to make it everyone else’s problem”</i>.</p>
                     </div>
